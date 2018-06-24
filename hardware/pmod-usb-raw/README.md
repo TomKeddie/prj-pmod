@@ -8,3 +8,10 @@ It has both USB Micro and USB Mini, you only need one or the other.  It also has
 See the bootloader at https://github.com/tinyfpga/TinyFPGA-Bootloader
 
 Order at oshpark via https://oshpark.com/shared_projects/UDlBSFXa
+
+BOM at octopart via https://octopart.com/bom-tool/BNyMEAgK (I don't have the part number for the micro usb, please let me know if you find it)
+
+<img src="https://github.com/TomKeddie/prj-pmod/raw/master/hardware/pmod-usb-raw/overview.jpg" width="400">
+
+
+
