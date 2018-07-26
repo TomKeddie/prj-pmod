@@ -300,18 +300,18 @@
 <text x="-1.27" y="-2.413" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
 <package name="2X6_SMD_RA_PLUG">
-<smd name="6" x="6.35" y="2.54" dx="2.54" dy="0.635" layer="1" rot="R270"/>
-<smd name="12" x="6.35" y="-2.54" dx="2.54" dy="0.635" layer="1" rot="R270"/>
-<smd name="5" x="3.81" y="2.54" dx="2.54" dy="0.635" layer="1" rot="R270"/>
-<smd name="11" x="3.81" y="-2.54" dx="2.54" dy="0.635" layer="1" rot="R270"/>
-<smd name="4" x="1.27" y="2.54" dx="2.54" dy="0.635" layer="1" rot="R270"/>
-<smd name="10" x="1.27" y="-2.54" dx="2.54" dy="0.635" layer="1" rot="R270"/>
-<smd name="3" x="-1.27" y="2.54" dx="2.54" dy="0.635" layer="1" rot="R270"/>
-<smd name="9" x="-1.27" y="-2.54" dx="2.54" dy="0.635" layer="1" rot="R270"/>
-<smd name="2" x="-3.81" y="2.54" dx="2.54" dy="0.635" layer="1" rot="R270"/>
-<smd name="8" x="-3.81" y="-2.54" dx="2.54" dy="0.635" layer="1" rot="R270"/>
-<smd name="1" x="-6.35" y="2.54" dx="2.54" dy="0.635" layer="1" rot="R270"/>
-<smd name="7" x="-6.35" y="-2.54" dx="2.54" dy="0.635" layer="1" rot="R270"/>
+<smd name="6" x="6.35" y="2.54" dx="2.54" dy="1.016" layer="1" rot="R270"/>
+<smd name="12" x="6.35" y="-2.54" dx="2.54" dy="1.016" layer="1" rot="R270"/>
+<smd name="5" x="3.81" y="2.54" dx="2.54" dy="1.016" layer="1" rot="R270"/>
+<smd name="11" x="3.81" y="-2.54" dx="2.54" dy="1.016" layer="1" rot="R270"/>
+<smd name="4" x="1.27" y="2.54" dx="2.54" dy="1.016" layer="1" rot="R270"/>
+<smd name="10" x="1.27" y="-2.54" dx="2.54" dy="1.016" layer="1" rot="R270"/>
+<smd name="3" x="-1.27" y="2.54" dx="2.54" dy="1.016" layer="1" rot="R270"/>
+<smd name="9" x="-1.27" y="-2.54" dx="2.54" dy="1.016" layer="1" rot="R270"/>
+<smd name="2" x="-3.81" y="2.54" dx="2.54" dy="1.016" layer="1" rot="R270"/>
+<smd name="8" x="-3.81" y="-2.54" dx="2.54" dy="1.016" layer="1" rot="R270"/>
+<smd name="1" x="-6.35" y="2.54" dx="2.54" dy="1.016" layer="1" rot="R270"/>
+<smd name="7" x="-6.35" y="-2.54" dx="2.54" dy="1.016" layer="1" rot="R270"/>
 <text x="-7.62" y="1.27" size="1.27" layer="21" font="vector" ratio="31" rot="R180" align="center">o</text>
 <wire x1="8.89" y1="-6.35" x2="0" y2="-6.35" width="0.254" layer="21"/>
 <wire x1="0" y1="-6.35" x2="-8.89" y2="-6.35" width="0.254" layer="21"/>
@@ -319,18 +319,18 @@
 <wire x1="0" y1="-6.35" x2="-1.27" y2="-5.08" width="0.254" layer="21"/>
 </package>
 <package name="2X6_SMD_RA_SOCKET">
-<smd name="1" x="6.35" y="2.54" dx="2.54" dy="0.635" layer="1" rot="R270"/>
-<smd name="7" x="6.35" y="-2.54" dx="2.54" dy="0.635" layer="1" rot="R270"/>
-<smd name="2" x="3.81" y="2.54" dx="2.54" dy="0.635" layer="1" rot="R270"/>
-<smd name="8" x="3.81" y="-2.54" dx="2.54" dy="0.635" layer="1" rot="R270"/>
-<smd name="3" x="1.27" y="2.54" dx="2.54" dy="0.635" layer="1" rot="R270"/>
-<smd name="9" x="1.27" y="-2.54" dx="2.54" dy="0.635" layer="1" rot="R270"/>
-<smd name="4" x="-1.27" y="2.54" dx="2.54" dy="0.635" layer="1" rot="R270"/>
-<smd name="10" x="-1.27" y="-2.54" dx="2.54" dy="0.635" layer="1" rot="R270"/>
-<smd name="5" x="-3.81" y="2.54" dx="2.54" dy="0.635" layer="1" rot="R270"/>
-<smd name="11" x="-3.81" y="-2.54" dx="2.54" dy="0.635" layer="1" rot="R270"/>
-<smd name="6" x="-6.35" y="2.54" dx="2.54" dy="0.635" layer="1" rot="R270"/>
-<smd name="12" x="-6.35" y="-2.54" dx="2.54" dy="0.635" layer="1" rot="R270"/>
+<smd name="1" x="6.35" y="2.54" dx="2.54" dy="1.016" layer="1" rot="R270"/>
+<smd name="7" x="6.35" y="-2.54" dx="2.54" dy="1.016" layer="1" rot="R270"/>
+<smd name="2" x="3.81" y="2.54" dx="2.54" dy="1.016" layer="1" rot="R270"/>
+<smd name="8" x="3.81" y="-2.54" dx="2.54" dy="1.016" layer="1" rot="R270"/>
+<smd name="3" x="1.27" y="2.54" dx="2.54" dy="1.016" layer="1" rot="R270"/>
+<smd name="9" x="1.27" y="-2.54" dx="2.54" dy="1.016" layer="1" rot="R270"/>
+<smd name="4" x="-1.27" y="2.54" dx="2.54" dy="1.016" layer="1" rot="R270"/>
+<smd name="10" x="-1.27" y="-2.54" dx="2.54" dy="1.016" layer="1" rot="R270"/>
+<smd name="5" x="-3.81" y="2.54" dx="2.54" dy="1.016" layer="1" rot="R270"/>
+<smd name="11" x="-3.81" y="-2.54" dx="2.54" dy="1.016" layer="1" rot="R270"/>
+<smd name="6" x="-6.35" y="2.54" dx="2.54" dy="1.016" layer="1" rot="R270"/>
+<smd name="12" x="-6.35" y="-2.54" dx="2.54" dy="1.016" layer="1" rot="R270"/>
 <text x="7.62" y="1.27" size="1.27" layer="21" font="vector" ratio="31" rot="R180" align="center">o</text>
 <wire x1="8.89" y1="-6.35" x2="0" y2="-6.35" width="0.254" layer="21"/>
 <wire x1="0" y1="-6.35" x2="-8.89" y2="-6.35" width="0.254" layer="21"/>
