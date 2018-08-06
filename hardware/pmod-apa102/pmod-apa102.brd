@@ -1251,20 +1251,7 @@ Metric Code Size 2012</description>
 </package>
 </packages>
 </library>
-<library name="SparkFun-Connectors">
-<description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
-This library contains electrically-functional connectors. 
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<library name="mechanical">
 <packages>
 <package name="1X06-SMD_RA_MALE">
 <description>&lt;h3&gt;SMD - 6 Pin Right Angle Male Header&lt;/h3&gt;
@@ -1298,8 +1285,6 @@ tDocu layer shows pin locations.
 <smd name="3" x="-1.27" y="5" dx="3" dy="1" layer="1" rot="R90"/>
 <smd name="2" x="-3.81" y="5" dx="3" dy="1" layer="1" rot="R90"/>
 <smd name="1" x="-6.35" y="5" dx="3" dy="1" layer="1" rot="R90"/>
-<hole x="-5.08" y="0" drill="1.4"/>
-<hole x="5.08" y="0" drill="1.4"/>
 <text x="-1.524" y="0.381" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.651" y="-1.016" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
@@ -1500,15 +1485,25 @@ tDocu layer shows pin locations.
 <attribute name="NAME" x="8.2" y="15.1" size="1.27" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="6" y="7.9" size="1.27" layer="27" font="vector"/>
 </element>
-<element name="C1" library="rcl" package="C0805K" value="" x="8" y="10" rot="MR0"/>
-<element name="C2" library="rcl" package="C0805K" value="" x="8" y="2" rot="MR0"/>
-<element name="C3" library="rcl" package="C0805K" value="" x="16" y="2" rot="MR0"/>
+<element name="C1" library="rcl" package="C0805K" value="" x="8" y="10" smashed="yes" rot="MR0">
+<attribute name="NAME" x="5.625" y="10" size="1.27" layer="26" ratio="12" rot="MR270" align="center"/>
+<attribute name="VALUE" x="9" y="8.1" size="1.016" layer="28" rot="MR0"/>
+</element>
+<element name="C2" library="rcl" package="C0805K" value="" x="8" y="2" smashed="yes" rot="MR0">
+<attribute name="NAME" x="5.625" y="2.5" size="1.27" layer="26" ratio="12" rot="MR270" align="center"/>
+<attribute name="VALUE" x="9" y="0.1" size="1.016" layer="28" rot="MR0"/>
+</element>
+<element name="C3" library="rcl" package="C0805K" value="" x="16" y="2" smashed="yes" rot="MR0">
+<attribute name="NAME" x="13.625" y="2.5" size="1.27" layer="26" ratio="12" rot="MR270" align="center"/>
+<attribute name="VALUE" x="17" y="0.1" size="1.016" layer="28" rot="MR0"/>
+</element>
 <element name="C4" library="rcl" package="C0805K" value="" x="16" y="10" smashed="yes" rot="MR0">
-<attribute name="NAME" x="17" y="10.875" size="1.016" layer="26" rot="MR0"/>
+<attribute name="NAME" x="13.625" y="10" size="1.27" layer="26" ratio="12" rot="MR270" align="center"/>
 <attribute name="VALUE" x="17" y="8.1" size="1.016" layer="28" rot="MR0"/>
 </element>
-<element name="J4" library="SparkFun-Connectors" package="1X06-SMD_RA_MALE" value="RA 6Pin SMD" x="-3" y="8" rot="R270">
+<element name="J4" library="mechanical" package="1X06-SMD_RA_MALE" value="RA 6Pin SMD" x="-3" y="8" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="CONN-08971" x="15" y="24" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="-4.016" y="9.651" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 </elements>
 <signals>
