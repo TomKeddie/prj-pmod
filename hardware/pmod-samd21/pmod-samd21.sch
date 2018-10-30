@@ -1,0 +1,849 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr User 11693 8415
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	2600 7100 2500 7100
+Wire Wire Line
+	2500 7100 2500 7300
+Wire Wire Line
+	2600 7000 2500 7000
+Wire Wire Line
+	2500 7000 2500 7100
+Wire Wire Line
+	2600 6900 2500 6900
+Wire Wire Line
+	2500 6900 2500 7000
+Wire Wire Line
+	2600 6700 2500 6700
+Wire Wire Line
+	2500 6700 2500 6900
+Connection ~ 2500 7100
+Connection ~ 2500 7000
+Connection ~ 2500 6900
+Text Label 2600 7100 0    10   ~ 0
+GND
+Wire Wire Line
+	2000 4900 2000 4800
+Text Label 2000 4900 0    10   ~ 0
+GND
+Wire Wire Line
+	2500 4800 2500 4900
+Text Label 2500 4800 0    10   ~ 0
+GND
+Wire Wire Line
+	1500 5600 1500 5500
+Text Label 1500 5600 0    10   ~ 0
+GND
+Wire Wire Line
+	1900 5500 1800 5500
+Wire Wire Line
+	1800 5500 1800 5600
+Wire Wire Line
+	1900 5300 1800 5300
+Wire Wire Line
+	1800 5300 1800 5500
+Connection ~ 1800 5500
+Text Label 1900 5500 0    10   ~ 0
+GND
+Wire Wire Line
+	6000 4600 6000 4500
+Wire Wire Line
+	6000 4600 6400 4600
+Wire Wire Line
+	6400 4600 6400 4500
+Connection ~ 6000 4600
+Text Label 6000 4600 0    10   ~ 0
+GND
+Text Label 2000 1800 0    10   ~ 0
+GND
+Wire Wire Line
+	2000 6900 2100 6900
+Wire Wire Line
+	2100 6900 2100 7000
+Text Label 2000 6900 0    10   ~ 0
+GND
+Wire Wire Line
+	7200 2800 7200 2700
+Text Label 7200 2800 0    10   ~ 0
+GND
+Wire Wire Line
+	8100 3900 8000 3900
+Wire Wire Line
+	8000 3900 8000 4000
+Wire Wire Line
+	8000 4000 8000 4300
+Wire Wire Line
+	8100 4000 8000 4000
+Connection ~ 8000 4000
+Text Label 8100 3900 0    10   ~ 0
+GND
+Wire Wire Line
+	2500 3600 2500 3700
+Text Label 2500 3600 0    10   ~ 0
+3.3V
+Wire Wire Line
+	2600 4300 2000 4300
+Wire Wire Line
+	2000 4300 2000 4500
+Wire Wire Line
+	2000 4300 2000 3600
+Connection ~ 2000 4300
+Text Label 2600 4300 0    10   ~ 0
+3.3V
+Text Label 1500 4400 0    10   ~ 0
+3.3V
+Wire Wire Line
+	5300 4300 5700 4300
+Wire Wire Line
+	5700 4300 5700 4200
+Wire Wire Line
+	5700 4200 5700 4100
+Wire Wire Line
+	5700 4100 6000 4100
+Wire Wire Line
+	6000 4100 6000 4200
+Wire Wire Line
+	6000 4100 6000 3800
+Wire Wire Line
+	5300 4200 5700 4200
+Wire Wire Line
+	6000 4100 6400 4100
+Wire Wire Line
+	6400 4100 6400 4200
+Connection ~ 6000 4100
+Connection ~ 5700 4200
+Text Label 5300 4300 0    10   ~ 0
+3.3V
+Wire Wire Line
+	7200 1300 7200 1400
+Text Label 7200 1300 0    10   ~ 0
+3.3V
+Wire Wire Line
+	8100 3800 8000 3800
+Wire Wire Line
+	8000 3800 8000 3700
+Text Label 8100 3800 0    10   ~ 0
+3.3V
+Wire Wire Line
+	2600 4400 2500 4400
+Wire Wire Line
+	2500 4400 2500 4500
+Wire Wire Line
+	2600 5100 1500 5100
+Wire Wire Line
+	1500 5200 1500 5100
+Connection ~ 1500 5100
+Wire Wire Line
+	2600 5300 2300 5300
+Wire Wire Line
+	2300 5300 2200 5300
+Connection ~ 2300 5300
+Wire Wire Line
+	2200 5500 2300 5500
+Wire Wire Line
+	2300 5500 2600 5500
+Connection ~ 2300 5500
+Wire Wire Line
+	2600 4200 2500 4200
+Wire Wire Line
+	2500 4200 2500 4100
+Wire Wire Line
+	2500 4200 2400 4200
+Connection ~ 2500 4200
+Text Label 2400 4200 2    50   ~ 0
+~RESET
+Wire Wire Line
+	1600 6900 1500 6900
+Text Label 1500 6900 2    50   ~ 0
+~RESET
+Wire Wire Line
+	9400 4200 9500 4200
+Text Label 9500 4200 0    50   ~ 0
+~RESET
+Wire Wire Line
+	7200 1800 7200 1900
+Wire Wire Line
+	9400 3900 9500 3900
+Text Label 9500 3900 0    50   ~ 0
+SWCLK
+Wire Wire Line
+	9400 3800 9500 3800
+Text Label 9500 3800 0    50   ~ 0
+SWDIO
+Wire Wire Line
+	7200 2300 7200 2200
+Wire Wire Line
+	5300 4500 5400 4500
+Text Label 5400 4500 0    50   ~ 0
+SER0_0
+Wire Wire Line
+	5300 4600 5400 4600
+Text Label 5400 4600 0    50   ~ 0
+SER0_1
+Wire Wire Line
+	5300 4700 5400 4700
+Text Label 5400 4700 0    50   ~ 0
+SER0_2
+Wire Wire Line
+	5300 4800 5400 4800
+Text Label 5400 4800 0    50   ~ 0
+SER0_3
+Wire Wire Line
+	5300 5100 5400 5100
+Text Label 5400 5100 0    50   ~ 0
+SER2_2
+Wire Wire Line
+	5300 5200 5400 5200
+Text Label 5400 5200 0    50   ~ 0
+SER2_3
+Wire Wire Line
+	5300 5300 5400 5300
+Text Label 5400 5300 0    50   ~ 0
+SER1_0
+Wire Wire Line
+	5300 5400 5400 5400
+Text Label 5400 5400 0    50   ~ 0
+SER1_1
+Wire Wire Line
+	7500 2500 7600 2500
+Text Label 7600 2500 0    50   ~ 0
+BLUE_LED
+Wire Wire Line
+	5300 5500 5400 5500
+Text Label 5400 5500 0    50   ~ 0
+SER1_2
+Wire Wire Line
+	5300 5600 5400 5600
+Text Label 5400 5600 0    50   ~ 0
+SER1_3
+Wire Wire Line
+	5300 4900 5400 4900
+Text Label 5400 4900 0    50   ~ 0
+SER2_0
+Wire Wire Line
+	5300 5000 5400 5000
+Text Label 5400 5000 0    50   ~ 0
+SER2_1
+$Comp
+L pmod-samd21-eagle-import:CRYSTAL3.2X1.5MM Y1
+U 1 0 1A875ADB26499976
+P 2300 5400
+F 0 "Y1" V 2260 5320 59  0000 R TNN
+F 1 "32.768kHz" V 2420 5320 59  0000 C TNN
+F 2 "pmod-samd21:CRYSTAL-SMD-3.2X1.5MM" H 2300 5400 50  0001 C CNN
+F 3 "" H 2300 5400 50  0001 C CNN
+	1    2300 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pmod-samd21-eagle-import:ATSAMD21G-A U1
+U 1 0 B89026D3F9562130
+P 3900 5900
+F 0 "U1" H 2700 7710 59  0000 L BNN
+F 1 "ATSAMD21G-A" H 2700 4590 59  0000 L TNN
+F 2 "pmod-samd21:TQFP-48" H 3900 5900 50  0001 C CNN
+F 3 "" H 3900 5900 50  0001 C CNN
+	1    3900 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L pmod-samd21-eagle-import:GND #GND01
+U 1 0 6F68935FDB8695AC
+P 2500 7400
+F 0 "#GND01" H 2500 7400 50  0001 C CNN
+F 1 "GND" H 2400 7300 59  0000 L BNN
+F 2 "" H 2500 7400 50  0001 C CNN
+F 3 "" H 2500 7400 50  0001 C CNN
+	1    2500 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L pmod-samd21-eagle-import:0.1UF-16V(+-10%)(0402) C1
+U 1 0 C9E59636F1C90C04
+P 2000 4700
+F 0 "C1" H 2060 4815 59  0000 L BNN
+F 1 "0.1uF" H 2060 4615 59  0000 L BNN
+F 2 "pmod-samd21:0402-CAP" H 2000 4700 50  0001 C CNN
+F 3 "" H 2000 4700 50  0001 C CNN
+	1    2000 4700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L pmod-samd21-eagle-import:0.1UF-16V(+-10%)(0402) C2
+U 1 0 4ED27554B94C3227
+P 2500 4700
+F 0 "C2" H 2560 4815 59  0000 L BNN
+F 1 "0.1uF" H 2560 4615 59  0000 L BNN
+F 2 "pmod-samd21:0402-CAP" H 2500 4700 50  0001 C CNN
+F 3 "" H 2500 4700 50  0001 C CNN
+	1    2500 4700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L pmod-samd21-eagle-import:0.1UF-16V(+-10%)(0402) C3
+U 1 0 563B591DDAA3AADF
+P 1500 5400
+F 0 "C3" H 1560 5515 59  0000 L BNN
+F 1 "0.1uF" H 1560 5315 59  0000 L BNN
+F 2 "pmod-samd21:0402-CAP" H 1500 5400 50  0001 C CNN
+F 3 "" H 1500 5400 50  0001 C CNN
+	1    1500 5400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L pmod-samd21-eagle-import:0.1UF-16V(+-10%)(0402) C4
+U 1 0 B625051EF80B1965
+P 6000 4400
+F 0 "C4" H 6060 4515 59  0000 L BNN
+F 1 "0.1uF" H 6060 4315 59  0000 L BNN
+F 2 "pmod-samd21:0402-CAP" H 6000 4400 50  0001 C CNN
+F 3 "" H 6000 4400 50  0001 C CNN
+	1    6000 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L pmod-samd21-eagle-import:R-EU_R0402 R1
+U 1 0 A4E27F8D4C88E097
+P 2500 3900
+F 0 "R1" H 2350 3959 59  0000 L BNN
+F 1 "10K" H 2350 3770 59  0000 L BNN
+F 2 "pmod-samd21:R0402" H 2500 3900 50  0001 C CNN
+F 3 "" H 2500 3900 50  0001 C CNN
+	1    2500 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pmod-samd21-eagle-import:GND #GND02
+U 1 0 350FEA2913A376EC
+P 2000 5000
+F 0 "#GND02" H 2000 5000 50  0001 C CNN
+F 1 "GND" H 1900 4900 59  0000 L BNN
+F 2 "" H 2000 5000 50  0001 C CNN
+F 3 "" H 2000 5000 50  0001 C CNN
+	1    2000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L pmod-samd21-eagle-import:GND #GND03
+U 1 0 21A7002F7679BDCC
+P 2500 5000
+F 0 "#GND03" H 2500 5000 50  0001 C CNN
+F 1 "GND" H 2400 4900 59  0000 L BNN
+F 2 "" H 2500 5000 50  0001 C CNN
+F 3 "" H 2500 5000 50  0001 C CNN
+	1    2500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L pmod-samd21-eagle-import:GND #GND04
+U 1 0 4B4BE4C0D896219B
+P 1500 5700
+F 0 "#GND04" H 1500 5700 50  0001 C CNN
+F 1 "GND" H 1400 5600 59  0000 L BNN
+F 2 "" H 1500 5700 50  0001 C CNN
+F 3 "" H 1500 5700 50  0001 C CNN
+	1    1500 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L pmod-samd21-eagle-import:15PF-50V(+-5%)(0402) C5
+U 1 0 72A9CF02ABF323BA
+P 2100 5300
+F 0 "C5" V 2085 5380 59  0000 L BNN
+F 1 "15pF" V 2115 5380 59  0000 L TNN
+F 2 "pmod-samd21:0402-CAP" H 2100 5300 50  0001 C CNN
+F 3 "" H 2100 5300 50  0001 C CNN
+	1    2100 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pmod-samd21-eagle-import:15PF-50V(+-5%)(0402) C6
+U 1 0 8A62307AC876714
+P 2000 5500
+F 0 "C6" V 1985 5520 59  0000 R BNN
+F 1 "15pF" V 2015 5590 59  0000 L TNN
+F 2 "pmod-samd21:0402-CAP" H 2000 5500 50  0001 C CNN
+F 3 "" H 2000 5500 50  0001 C CNN
+	1    2000 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L pmod-samd21-eagle-import:GND #GND05
+U 1 0 D2D9FA1DEF27308A
+P 1800 5700
+F 0 "#GND05" H 1800 5700 50  0001 C CNN
+F 1 "GND" H 1700 5600 59  0000 L BNN
+F 2 "" H 1800 5700 50  0001 C CNN
+F 3 "" H 1800 5700 50  0001 C CNN
+	1    1800 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L pmod-samd21-eagle-import:GND #GND06
+U 1 0 714A278CA07C0193
+P 6000 4700
+F 0 "#GND06" H 6000 4700 50  0001 C CNN
+F 1 "GND" H 5900 4600 59  0000 L BNN
+F 2 "" H 6000 4700 50  0001 C CNN
+F 3 "" H 6000 4700 50  0001 C CNN
+	1    6000 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L pmod-samd21-eagle-import:GND #GND09
+U 1 0 92D8EA4928DF91D
+P 2100 7100
+F 0 "#GND09" H 2100 7100 50  0001 C CNN
+F 1 "GND" H 2000 7000 59  0000 L BNN
+F 2 "" H 2100 7100 50  0001 C CNN
+F 3 "" H 2100 7100 50  0001 C CNN
+	1    2100 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L pmod-samd21-eagle-import:R-EU_R0402 R3
+U 1 0 C7959A8847515AA7
+P 7200 1600
+F 0 "R3" H 7050 1659 59  0000 L BNN
+F 1 "330" H 7050 1470 59  0000 L BNN
+F 2 "pmod-samd21:R0402" H 7200 1600 50  0001 C CNN
+F 3 "" H 7200 1600 50  0001 C CNN
+	1    7200 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pmod-samd21-eagle-import:GND #GND015
+U 1 0 CBE454F257B06B4
+P 7200 2900
+F 0 "#GND015" H 7200 2900 50  0001 C CNN
+F 1 "GND" H 7100 2800 59  0000 L BNN
+F 2 "" H 7200 2900 50  0001 C CNN
+F 3 "" H 7200 2900 50  0001 C CNN
+	1    7200 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L pmod-samd21-eagle-import:LED-BLUE0603 D3
+U 1 0 3C0711F85339A710
+P 7200 2000
+F 0 "D3" V 7340 1820 59  0000 L BNN
+F 1 "BLUE" V 7425 1820 59  0000 L BNN
+F 2 "pmod-samd21:LED-0603" H 7200 2000 50  0001 C CNN
+F 3 "" H 7200 2000 50  0001 C CNN
+	1    7200 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L pmod-samd21-eagle-import:MOSFET-NCHANNEL2N7002PW Q1
+U 1 0 A23A4655302BD585
+P 7200 2500
+F 0 "Q1" H 7180 2620 59  0000 R BNN
+F 1 "2N7002PW" V 7350 2760 59  0000 R TNN
+F 2 "pmod-samd21:SOT323" H 7200 2500 50  0001 C CNN
+F 3 "" H 7200 2500 50  0001 C CNN
+	1    7200 2500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L pmod-samd21-eagle-import:CORTEX_DEBUGPTH JP2
+U 1 0 F946090C8F370CD1
+P 8700 4000
+F 0 "JP2" H 8200 4310 59  0000 L BNN
+F 1 "CORTEX_DEBUGPTH" H 8200 3690 59  0000 L TNN
+F 2 "pmod-samd21:2X5-PTH-1.27MM" H 8700 4000 50  0001 C CNN
+F 3 "" H 8700 4000 50  0001 C CNN
+	1    8700 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L pmod-samd21-eagle-import:GND #GND016
+U 1 0 8316678299D4D269
+P 8000 4400
+F 0 "#GND016" H 8000 4400 50  0001 C CNN
+F 1 "GND" H 7900 4300 59  0000 L BNN
+F 2 "" H 8000 4400 50  0001 C CNN
+F 3 "" H 8000 4400 50  0001 C CNN
+	1    8000 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L pmod-samd21-eagle-import:SWITCH-MOMENTARY-2SMD S2
+U 1 0 361F5315F82F9BF5
+P 1800 6900
+F 0 "S2" H 1700 7000 59  0000 L BNN
+F 1 "SWITCH-MOMENTARY-2SMD" H 1700 6800 59  0000 L BNN
+F 2 "pmod-samd21:TACTILE-SWITCH-SMD" H 1800 6900 50  0001 C CNN
+F 3 "" H 1800 6900 50  0001 C CNN
+	1    1800 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L pmod-samd21-eagle-import:0.1UF-16V(+-10%)(0402) C9
+U 1 0 8514EC1FF7AEDC46
+P 6400 4400
+F 0 "C9" H 6460 4515 59  0000 L BNN
+F 1 "0.1uF" H 6460 4315 59  0000 L BNN
+F 2 "pmod-samd21:0402-CAP" H 6400 4400 50  0001 C CNN
+F 3 "" H 6400 4400 50  0001 C CNN
+	1    6400 4400
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	6700 4600 10700 4600
+Text Notes 1000 800  0    85   ~ 0
+USB
+Text Notes 6800 800  0    85   ~ 0
+LEDs~~~
+Text Notes 6800 3350 0    85   ~ 0
+Cortex Debug/Program Connector
+Text Notes 1000 3300 0    85   ~ 0
+ATSAMD21G
+Wire Notes Line
+	6700 700  6700 6600
+Wire Notes Line
+	900  3200 10700 3200
+Wire Wire Line
+	2000 1800 2100 1800
+$Comp
+L pmod-samd21-eagle-import:GND #GND08
+U 1 0 167E2C6ADF24F9E8
+P 2100 2100
+F 0 "#GND08" H 2100 2100 50  0001 C CNN
+F 1 "GND" H 2000 2000 59  0000 L BNN
+F 2 "" H 2100 2100 50  0001 C CNN
+F 3 "" H 2100 2100 50  0001 C CNN
+	1    2100 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 1800 2100 2000
+Wire Wire Line
+	2000 1300 2100 1300
+Wire Wire Line
+	2000 1600 2300 1600
+Text Label 2300 1600 0    50   ~ 0
+USB_D+
+Text Label 2300 1500 0    50   ~ 0
+USB_D-
+Connection ~ 2100 1800
+Wire Wire Line
+	2100 1300 2100 1800
+Wire Wire Line
+	2000 1500 2300 1500
+$Comp
+L pmod-samd21-eagle-import:USB-ABCONN-11794 JP1
+U 1 0 CD71B194ACD8E5B6
+P 1800 1600
+F 0 "JP1" H 1800 1600 50  0001 C CNN
+F 1 "USB-ABCONN-11794" H 1800 1600 50  0001 C CNN
+F 2 "pmod-samd21:USB-AB-MICRO-SMD_V03" H 1800 1600 50  0001 C CNN
+F 3 "" H 1800 1600 50  0001 C CNN
+	1    1800 1600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1500 4300 1500 5100
+Wire Wire Line
+	5300 6600 5400 6600
+Wire Wire Line
+	5300 6500 5400 6500
+Text Label 5400 6500 0    50   ~ 0
+SWCLK
+Text Label 5400 6600 0    50   ~ 0
+SWDIO
+$Comp
+L tom-connectors:PMOD-2x6-MALE J1
+U 1 1 5BDAEA69
+P 7750 5500
+F 0 "J1" H 7422 5421 50  0000 R CNN
+F 1 "PMOD-2x6-MALE" H 7422 5330 50  0000 R CNN
+F 2 "tom-connectors:2X6_SMD_RA_PLUG" H 7750 5500 50  0001 C CNN
+F 3 "" H 7750 5500 50  0001 C CNN
+	1    7750 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 5350 8100 5350
+Wire Wire Line
+	8000 5450 8100 5450
+Wire Wire Line
+	8000 5250 8100 5250
+Wire Wire Line
+	8000 5550 8100 5550
+Wire Wire Line
+	8000 5650 8100 5650
+Wire Wire Line
+	8000 5750 8100 5750
+Wire Wire Line
+	8000 5850 8100 5850
+Wire Wire Line
+	8000 5950 8100 5950
+Text Label 8100 5250 0    50   ~ 0
+SER0_0
+Text Label 8100 5350 0    50   ~ 0
+SER0_1
+Text Label 8100 5450 0    50   ~ 0
+SER0_2
+Text Label 8100 5550 0    50   ~ 0
+SER0_3
+$Comp
+L pmod-samd21-eagle-import:GND #U0101
+U 1 0 5BDBFE2D
+P 7550 6400
+F 0 "#U0101" H 7550 6400 50  0001 C CNN
+F 1 "GND" H 7450 6300 59  0000 L BNN
+F 2 "" H 7550 6400 50  0001 C CNN
+F 3 "" H 7550 6400 50  0001 C CNN
+	1    7550 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 6200 7550 6250
+Wire Wire Line
+	7650 6200 7650 6250
+Wire Wire Line
+	7650 6250 7550 6250
+Connection ~ 7550 6250
+Wire Wire Line
+	7550 6250 7550 6300
+Wire Wire Line
+	7550 5050 7550 5000
+Wire Wire Line
+	7650 5050 7650 5000
+Wire Wire Line
+	7650 5000 7550 5000
+Connection ~ 7550 5000
+Wire Wire Line
+	7550 5000 7550 4950
+Text Notes 6850 4800 0    85   ~ 0
+PMOD
+NoConn ~ 2600 5600
+NoConn ~ 2600 5700
+NoConn ~ 2600 5800
+NoConn ~ 2600 5900
+NoConn ~ 2600 6000
+NoConn ~ 2600 6100
+NoConn ~ 2600 6400
+NoConn ~ 2600 6500
+NoConn ~ 5300 7000
+NoConn ~ 5300 6900
+NoConn ~ 5300 6800
+NoConn ~ 5300 6400
+NoConn ~ 5300 6300
+Wire Wire Line
+	5300 7100 5400 7100
+Text Label 5400 7100 0    50   ~ 0
+BLUE_LED
+NoConn ~ 9400 4000
+NoConn ~ 8100 4100
+NoConn ~ 8100 4200
+NoConn ~ 9400 4100
+NoConn ~ 2000 1700
+NoConn ~ 2000 1400
+Wire Wire Line
+	5300 6100 5400 6100
+Wire Wire Line
+	5300 6200 5400 6200
+Text Label 5400 6200 0    50   ~ 0
+USB_D+
+Text Label 5400 6100 0    50   ~ 0
+USB_D-
+Wire Wire Line
+	2600 6200 2500 6200
+Wire Wire Line
+	2600 6300 2500 6300
+Text Label 2500 6200 2    50   ~ 0
+SER5_0
+Text Label 2500 6300 2    50   ~ 0
+SER5_1
+Wire Wire Line
+	5300 5700 5400 5700
+Wire Wire Line
+	5300 5800 5400 5800
+Text Label 5400 5700 0    50   ~ 0
+SER5_2
+Text Label 5400 5800 0    50   ~ 0
+SER5_3
+Text Label 8100 5650 0    50   ~ 0
+SER2_0
+Text Label 8100 5750 0    50   ~ 0
+SER2_1
+Text Label 8100 5850 0    50   ~ 0
+SER2_2
+Text Label 8100 5950 0    50   ~ 0
+SER2_3
+NoConn ~ 5300 5900
+NoConn ~ 5300 6000
+$Comp
+L tom-connectors:PMOD-2x6-FEMALE J2
+U 1 1 5BE7BB8D
+P 9650 5600
+F 0 "J2" H 9372 5621 50  0000 R CNN
+F 1 "PMOD-2x6-FEMALE" H 9372 5530 50  0000 R CNN
+F 2 "" H 9650 5600 50  0001 C CNN
+F 3 "" H 9650 5600 50  0001 C CNN
+	1    9650 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L pmod-samd21-eagle-import:GND #U0104
+U 1 0 5BE7BDF9
+P 9500 6400
+F 0 "#U0104" H 9500 6400 50  0001 C CNN
+F 1 "GND" H 9400 6300 59  0000 L BNN
+F 2 "" H 9500 6400 50  0001 C CNN
+F 3 "" H 9500 6400 50  0001 C CNN
+	1    9500 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 6200 9500 6250
+Wire Wire Line
+	9500 5050 9500 5000
+Wire Wire Line
+	9600 5050 9600 5000
+Wire Wire Line
+	9600 5000 9500 5000
+Connection ~ 9500 5000
+Wire Wire Line
+	9500 5000 9500 4950
+Wire Wire Line
+	9600 6200 9600 6250
+Wire Wire Line
+	9600 6250 9500 6250
+Connection ~ 9500 6250
+Wire Wire Line
+	9500 6250 9500 6300
+Wire Wire Line
+	9950 5250 10050 5250
+Wire Wire Line
+	9950 5350 10050 5350
+Wire Wire Line
+	9950 5450 10050 5450
+Wire Wire Line
+	9950 5550 10050 5550
+Wire Wire Line
+	9950 5650 10050 5650
+Wire Wire Line
+	9950 5750 10050 5750
+Wire Wire Line
+	9950 5850 10050 5850
+Wire Wire Line
+	9950 5950 10050 5950
+Text Label 10050 5250 0    50   ~ 0
+SER1_0
+Text Label 10050 5350 0    50   ~ 0
+SER1_1
+Text Label 10050 5450 0    50   ~ 0
+SER1_2
+Text Label 10050 5550 0    50   ~ 0
+SER1_3
+Text Label 10050 5650 0    50   ~ 0
+SER5_0
+Text Label 10050 5750 0    50   ~ 0
+SER5_1
+Text Label 10050 5850 0    50   ~ 0
+SER5_2
+Text Label 10050 5950 0    50   ~ 0
+SER5_3
+$Comp
+L power:+3.3V #PWR0101
+U 1 1 5BEA396C
+P 6000 3800
+F 0 "#PWR0101" H 6000 3650 50  0001 C CNN
+F 1 "+3.3V" H 6015 3973 50  0000 C CNN
+F 2 "" H 6000 3800 50  0001 C CNN
+F 3 "" H 6000 3800 50  0001 C CNN
+	1    6000 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0102
+U 1 1 5BEA3F77
+P 2500 3600
+F 0 "#PWR0102" H 2500 3450 50  0001 C CNN
+F 1 "+3.3V" H 2515 3773 50  0000 C CNN
+F 2 "" H 2500 3600 50  0001 C CNN
+F 3 "" H 2500 3600 50  0001 C CNN
+	1    2500 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0103
+U 1 1 5BEA3FD7
+P 2000 3600
+F 0 "#PWR0103" H 2000 3450 50  0001 C CNN
+F 1 "+3.3V" H 2015 3773 50  0000 C CNN
+F 2 "" H 2000 3600 50  0001 C CNN
+F 3 "" H 2000 3600 50  0001 C CNN
+	1    2000 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0104
+U 1 1 5BEA4037
+P 1500 4300
+F 0 "#PWR0104" H 1500 4150 50  0001 C CNN
+F 1 "+3.3V" H 1515 4473 50  0000 C CNN
+F 2 "" H 1500 4300 50  0001 C CNN
+F 3 "" H 1500 4300 50  0001 C CNN
+	1    1500 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0105
+U 1 1 5BEA43CA
+P 7200 1300
+F 0 "#PWR0105" H 7200 1150 50  0001 C CNN
+F 1 "+3.3V" H 7215 1473 50  0000 C CNN
+F 2 "" H 7200 1300 50  0001 C CNN
+F 3 "" H 7200 1300 50  0001 C CNN
+	1    7200 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0106
+U 1 1 5BEA445D
+P 8000 3700
+F 0 "#PWR0106" H 8000 3550 50  0001 C CNN
+F 1 "+3.3V" H 8015 3873 50  0000 C CNN
+F 2 "" H 8000 3700 50  0001 C CNN
+F 3 "" H 8000 3700 50  0001 C CNN
+	1    8000 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0107
+U 1 1 5BEA4501
+P 7550 4950
+F 0 "#PWR0107" H 7550 4800 50  0001 C CNN
+F 1 "+3.3V" H 7565 5123 50  0000 C CNN
+F 2 "" H 7550 4950 50  0001 C CNN
+F 3 "" H 7550 4950 50  0001 C CNN
+	1    7550 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0108
+U 1 1 5BEA45A5
+P 9500 4950
+F 0 "#PWR0108" H 9500 4800 50  0001 C CNN
+F 1 "+3.3V" H 9515 5123 50  0000 C CNN
+F 2 "" H 9500 4950 50  0001 C CNN
+F 3 "" H 9500 4950 50  0001 C CNN
+	1    9500 4950
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

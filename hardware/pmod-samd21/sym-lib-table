@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name pmod-samd21-eagle-import)(type Legacy)(uri ${KIPRJMOD}/pmod-samd21-eagle-import.lib)(options "")(descr ""))
+)
