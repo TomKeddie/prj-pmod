@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/tom/git/TomKeddie/prj-pmod/hardware/pmod-samd21/pmod-samd21.sch)
-    (date "Wed 31 Oct 2018 11:46:10 AM PDT")
+    (date "Sun 25 Nov 2018 04:45:51 PM PST")
     (tool "Eeschema 5.0.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
