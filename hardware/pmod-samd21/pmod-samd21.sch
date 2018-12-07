@@ -823,8 +823,6 @@ Wire Wire Line
 	2100 6750 2100 7000
 NoConn ~ 4500 2500
 NoConn ~ 4500 2400
-NoConn ~ 4500 1600
-NoConn ~ 4500 1500
 $Comp
 L Device:Crystal Y1
 U 1 1 5BE52E0B
@@ -860,4 +858,52 @@ Wire Wire Line
 	1900 5300 2650 5300
 Wire Wire Line
 	1900 5600 2500 5600
+$Comp
+L pmod-samd21-eagle-import:R-EU_R0402 R2
+U 1 0 5C0A44EE
+P 5300 1800
+F 0 "R2" H 5150 1859 59  0000 L BNN
+F 1 "5.1k" H 5150 1670 59  0000 L BNN
+F 2 "Resistors_SMD:R_0402" H 5300 1800 50  0001 C CNN
+F 3 "" H 5300 1800 50  0001 C CNN
+	1    5300 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pmod-samd21-eagle-import:R-EU_R0402 R4
+U 1 0 5C0A4650
+P 5600 1800
+F 0 "R4" H 5450 1859 59  0000 L BNN
+F 1 "5.1k" H 5450 1670 59  0000 L BNN
+F 2 "Resistors_SMD:R_0402" H 5600 1800 50  0001 C CNN
+F 3 "" H 5600 1800 50  0001 C CNN
+	1    5600 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pmod-samd21-eagle-import:GND #GND05
+U 1 0 5C0A4784
+P 5450 2150
+F 0 "#GND05" H 5450 2150 50  0001 C CNN
+F 1 "GND" H 5350 2050 59  0000 L BNN
+F 2 "" H 5450 2150 50  0001 C CNN
+F 3 "" H 5450 2150 50  0001 C CNN
+	1    5450 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 2000 5300 2050
+Wire Wire Line
+	5300 2050 5450 2050
+Wire Wire Line
+	5450 2050 5600 2050
+Wire Wire Line
+	5600 2050 5600 2000
+Connection ~ 5450 2050
+Wire Wire Line
+	5300 1600 4500 1600
+Wire Wire Line
+	4500 1500 5600 1500
+Wire Wire Line
+	5600 1500 5600 1600
 $EndSCHEMATC
