@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:pmod-samd21-cache
 EELAYER 26 0
 EELAYER END
 $Descr User 11693 8415
@@ -440,17 +439,6 @@ Wire Notes Line
 	6700 700  6700 6600
 Wire Notes Line
 	900  3200 10700 3200
-$Comp
-L pmod-samd21-eagle-import:GND #GND08
-U 1 0 167E2C6ADF24F9E8
-P 3750 2900
-F 0 "#GND08" H 3750 2900 50  0001 C CNN
-F 1 "GND" H 3650 2800 59  0000 L BNN
-F 2 "" H 3750 2900 50  0001 C CNN
-F 3 "" H 3750 2900 50  0001 C CNN
-	1    3750 2900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1200 4900 1200 5100
 Wire Wire Line
@@ -742,19 +730,15 @@ F 3 "" H 9500 4950 50  0001 C CNN
 	1    9500 4950
 	1    0    0    -1  
 $EndComp
-Text Label 4700 1800 0    50   ~ 0
-USB_D-
-Text Label 4700 2000 0    50   ~ 0
-USB_D+
 $Comp
 L Connector:TestPoint TP1
 U 1 1 5BDFE875
-P 4600 1300
-F 0 "TP1" H 4658 1420 50  0000 L CNN
-F 1 "VBUS" H 4658 1329 50  0000 L CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4800 1300 50  0001 C CNN
-F 3 "~" H 4800 1300 50  0001 C CNN
-	1    4600 1300
+P 3250 1500
+F 0 "TP1" H 3308 1620 50  0000 L CNN
+F 1 "VBUS" H 3308 1529 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3450 1500 50  0001 C CNN
+F 3 "~" H 3450 1500 50  0001 C CNN
+	1    3250 1500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -768,42 +752,6 @@ F 3 "~" H 7200 2050 50  0001 C CNN
 	1    7200 2050
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Connector:USB_C_Receptacle_USB2.0 J3
-U 1 1 5BE0D9D2
-P 3900 1900
-F 0 "J3" H 4005 2767 50  0000 C CNN
-F 1 "USB_C_Receptacle_USB2.0" H 4005 2676 50  0000 C CNN
-F 2 "tom-connectors:USB_C_Receptacle_GT-USB-7010" H 4050 1900 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 4050 1900 50  0001 C CNN
-	1    3900 1900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3900 2800 3750 2800
-Wire Wire Line
-	3750 2800 3600 2800
-Connection ~ 3750 2800
-Wire Wire Line
-	4600 1300 4500 1300
-Wire Wire Line
-	4500 1800 4600 1800
-Wire Wire Line
-	4600 1800 4600 1900
-Wire Wire Line
-	4600 1900 4500 1900
-Wire Wire Line
-	4500 2000 4600 2000
-Wire Wire Line
-	4600 2000 4600 2100
-Wire Wire Line
-	4600 2100 4500 2100
-Wire Wire Line
-	4600 2000 4700 2000
-Connection ~ 4600 2000
-Wire Wire Line
-	4600 1800 4700 1800
-Connection ~ 4600 1800
 $Comp
 L pmod-samd21-eagle-import:SWITCH-MOMENTARY-2SMD S1
 U 1 1 5BE31B43
@@ -821,8 +769,6 @@ Wire Wire Line
 	2000 6750 2100 6750
 Wire Wire Line
 	2100 6750 2100 7000
-NoConn ~ 4500 2500
-NoConn ~ 4500 2400
 $Comp
 L Device:Crystal Y1
 U 1 1 5BE52E0B
@@ -859,51 +805,47 @@ Wire Wire Line
 Wire Wire Line
 	1900 5600 2500 5600
 $Comp
-L pmod-samd21-eagle-import:R-EU_R0402 R2
-U 1 0 5C0A44EE
-P 5300 1800
-F 0 "R2" H 5150 1859 59  0000 L BNN
-F 1 "5.1k" H 5150 1670 59  0000 L BNN
-F 2 "Resistors_SMD:R_0402" H 5300 1800 50  0001 C CNN
-F 3 "" H 5300 1800 50  0001 C CNN
-	1    5300 1800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L pmod-samd21-eagle-import:R-EU_R0402 R4
-U 1 0 5C0A4650
-P 5600 1800
-F 0 "R4" H 5450 1859 59  0000 L BNN
-F 1 "5.1k" H 5450 1670 59  0000 L BNN
-F 2 "Resistors_SMD:R_0402" H 5600 1800 50  0001 C CNN
-F 3 "" H 5600 1800 50  0001 C CNN
-	1    5600 1800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L pmod-samd21-eagle-import:GND #GND05
-U 1 0 5C0A4784
-P 5450 2150
-F 0 "#GND05" H 5450 2150 50  0001 C CNN
-F 1 "GND" H 5350 2050 59  0000 L BNN
-F 2 "" H 5450 2150 50  0001 C CNN
-F 3 "" H 5450 2150 50  0001 C CNN
-	1    5450 2150
+L Connector:USB_B_Micro J3
+U 1 1 5C0AD903
+P 2850 1800
+F 0 "J3" H 2905 2267 50  0000 C CNN
+F 1 "USB_B_Micro" H 2905 2176 50  0000 C CNN
+F 2 "tom-connectors:USB_MICRO_TAOBAO_SMD_PTH" H 3000 1750 50  0001 C CNN
+F 3 "~" H 3000 1750 50  0001 C CNN
+	1    2850 1800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5300 2000 5300 2050
+	3150 1800 3300 1800
 Wire Wire Line
-	5300 2050 5450 2050
+	3150 1900 3300 1900
+Text Label 3300 1800 0    50   ~ 0
+USB_D+
+Text Label 3300 1900 0    50   ~ 0
+USB_D-
+$Comp
+L pmod-samd21-eagle-import:GND #GND05
+U 1 0 5C0B8765
+P 2800 2350
+F 0 "#GND05" H 2800 2350 50  0001 C CNN
+F 1 "GND" H 2700 2250 59  0000 L BNN
+F 2 "" H 2800 2350 50  0001 C CNN
+F 3 "" H 2800 2350 50  0001 C CNN
+	1    2800 2350
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	5450 2050 5600 2050
+	3150 1600 3250 1600
 Wire Wire Line
-	5600 2050 5600 2000
-Connection ~ 5450 2050
+	3250 1600 3250 1500
 Wire Wire Line
-	5300 1600 4500 1600
+	2750 2200 2750 2250
 Wire Wire Line
-	4500 1500 5600 1500
+	2750 2250 2800 2250
 Wire Wire Line
-	5600 1500 5600 1600
+	2850 2200 2850 2250
+Wire Wire Line
+	2850 2250 2800 2250
+Connection ~ 2800 2250
+NoConn ~ 3150 2000
 $EndSCHEMATC
