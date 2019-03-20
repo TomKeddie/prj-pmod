@@ -1,5 +1,15 @@
 # PMOD SAMD21
 
+## Misc IO
+
+| Function | SAMD21G18 pin  | Arduino digital pin | Arduino Analog Pin |
+|:-------------:|:-----:|:-----:|:-----:|
+| Blue LED | PB23 | | - |
+| SWCLK | PA30 | | - |
+| SWDIO | PA31 | | - |
+| USBD- | PA24 | | - |
+| USBD+ | PA25 | | - |
+
 ## PMOD pinout
 
 ![alt text](https://reference.digilentinc.com/_media/reference/pmod/pmod-pinout-2x6.png)
