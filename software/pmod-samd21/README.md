@@ -2,6 +2,7 @@ This is a copy of the SAM-BA bootloader from atmel downloaded from https://www.m
 
 From main.c
 
+```
 /* ----------------------------------------------------------------------------
  *         SAM Software Package License
  * ----------------------------------------------------------------------------
@@ -30,3 +31,4 @@ From main.c
  * EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  * ----------------------------------------------------------------------------
  */
+```
