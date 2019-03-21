@@ -1,5 +1,9 @@
 # PMOD SAMD21
 
+## Power supply
+
+All CPU power is derived from the PMOD power pins.  The VBUS pin on the usb connector is connected only to a test point.
+
 ## Misc IO
 
 | Function | SAMD21G18 pin  | Arduino digital pin | Arduino Analog Pin |
