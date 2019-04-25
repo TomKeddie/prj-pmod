@@ -1,0 +1,3 @@
+[submodule "hdl/prj-fpga"]
+	path = hdl/prj-fpga
+	url = git@github.com:TomKeddie/prj-fpga.git
