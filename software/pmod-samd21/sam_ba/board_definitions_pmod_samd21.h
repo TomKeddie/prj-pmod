@@ -20,14 +20,18 @@
 #ifndef _BOARD_DEFINITIONS_H_
 #define _BOARD_DEFINITIONS_H_
 
+/* disable uart */
+#define SAM_BA_INTERFACE SAM_BA_USBCDC_ONLY
+
 /*
  * USB device definitions
  */
 #define STRING_PRODUCT "PMOD-SAMD21"
-#define USB_VID_HIGH   0x23
-#define USB_VID_LOW    0x41
-#define USB_PID_HIGH   0x00
-#define USB_PID_LOW    0x4D
+#define STRING_MANUFACTURER "tom@tomk.in"
+#define USB_VID_HIGH   0x12
+#define USB_VID_LOW    0x09
+#define USB_PID_HIGH   0x80
+#define USB_PID_LOW    0x51
 
 /*
  * If BOOT_DOUBLE_TAP_ADDRESS is defined the bootloader is started by
@@ -49,8 +53,8 @@
 #define BOOT_USART_BUS_CLOCK_INDEX        PM_APBCMASK_SERCOM0
 #define BOOT_USART_PER_CLOCK_INDEX        GCLK_CLKCTRL_ID_SERCOM0_CORE_Val
 #define BOOT_USART_PAD_SETTINGS           UART_RX_PAD3_TX_PAD2
-#define BOOT_USART_PAD3                   PINMUX_PA11C_SERCOM0_PAD3
-#define BOOT_USART_PAD2                   PINMUX_PA10C_SERCOM0_PAD2
+#define BOOT_USART_PAD3                   PINMUX_UNUSED
+#define BOOT_USART_PAD2                   PINMUX_UNUSED
 #define BOOT_USART_PAD1                   PINMUX_UNUSED
 #define BOOT_USART_PAD0                   PINMUX_UNUSED
 
