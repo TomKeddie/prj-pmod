@@ -1,0 +1,12 @@
+top.runs/
+top.xdc
+*~~
+top.cache/
+top.hw/
+top.ip_user_files
+top.runs
+top.xdc
+top.xpr
+vivado_build_top.tcl
+vivado.jou
+vivado.log
