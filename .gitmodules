@@ -1,3 +1,15 @@
 [submodule "hdl/prj-fpga"]
 	path = hdl/prj-fpga
 	url = git@github.com:TomKeddie/prj-fpga.git
+[submodule "hdl/Arty"]
+	path = hdl/Arty
+	url = git@github.com:TomKeddie/Arty.git
+[submodule "hdl/Digilent-Arty"]
+	path = hdl/Digilent-Arty
+	url = git@github.com:TomKeddie/Arty.git
+[submodule "hdl/pmod-samd21/spi_master_slave"]
+	path = hdl/pmod-samd21/spi_master_slave
+	url = https://github.com/freecores/spi_master_slave.git
+[submodule "hdl/pmod-samd21/spi-fpga"]
+	path = hdl/pmod-samd21/spi-fpga
+	url = https://github.com/lhoyosm/spi-fpga.git
