@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name 2019-05-01_18-30-12)(type Legacy)(uri ${KIPRJMOD}/USB3343/KiCAD/2019-05-01_18-30-12/2019-05-01_18-30-12.lib)(options "")(descr ""))
+  (lib (name ECS-260-18-33-AGM-TR)(type Legacy)(uri ${KIPRJMOD}/ECS-260-18-33-AGM-TR/ECS-260-18-33-AGM-TR.lib)(options "")(descr ""))
+  (lib (name pmod-usb-analyser-openvizla-rescue)(type Legacy)(uri ${KIPRJMOD}/pmod-usb-analyser-openvizla-rescue.lib)(options "")(descr ""))
+  (lib (name 2019-05-01_20-38-34)(type Legacy)(uri ${KIPRJMOD}/875832010BLF/KiCAD/2019-05-01_20-38-34/2019-05-01_20-38-34.lib)(options "")(descr ""))
+)

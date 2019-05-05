@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# ECS-260-18-33-AGM-TR
+#
+DEF ECS-260-18-33-AGM-TR Y 0 40 Y Y 1 L N
+F0 "Y" -501 300 50 H V L BNN
+F1 "ECS-260-18-33-AGM-TR" -501 -300 50 H V L BNN
+F2 "XTAL_ECS-260-18-33-AGM-TR" 0 0 50 H I L BNN
+F3 "https://www.digikey.ca/product-detail/en/ecs-inc/ECS-260-18-33-AGM-TR/XC2492CT-ND/8023427?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 0 50 H I L BNN
+F4 "XC2492CT-ND" 0 0 50 H I L BNN
+F5 "SMD-4 ECS International" 0 0 50 H I L BNN
+F6 "ECS-260-18-33-AGM-TR" 0 0 50 H I L BNN
+F7 "Crystal 26mhz 18pf Smd" 0 0 50 H I L BNN
+F8 "ECS Inc." 0 0 50 H I L BNN
+DRAW
+P 2 0 0 5 -500 300 -500 -200 N
+P 2 0 0 5 -500 -200 500 -200 N
+P 2 0 0 5 500 -200 500 300 N
+P 2 0 0 5 500 300 -500 300 N
+X OUT/IN 3 700 100 200 L 40 40 0 0 B 
+X IN/OUT 1 -700 100 200 R 40 40 0 0 B 
+X GND 2 700 -100 200 L 40 40 0 0 W 
+X GND 4 700 -100 200 L 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library
