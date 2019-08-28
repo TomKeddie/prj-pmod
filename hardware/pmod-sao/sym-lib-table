@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name pmod)(type Legacy)(uri ${KIPRJMOD}/../mithro-kicad-pmod/pmod.lib)(options "")(descr ""))
+  (lib (name badgelife_shitty_addon_v169bis)(type Legacy)(uri ${KIPRJMOD}/badgelife-parts/badgelife_shitty_addon_v169bis.lib)(options "")(descr ""))
+  (lib (name LSAO)(type Legacy)(uri ${KIPRJMOD}/badgelife-parts/LSAO.lib)(options "")(descr ""))
+)

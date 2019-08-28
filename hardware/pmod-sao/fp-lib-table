@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name mithro-kicad-pmod)(type KiCad)(uri ${KIPRJMOD}/../mithro-kicad-pmod)(options "")(descr ""))
+  (lib (name badgelife-parts)(type KiCad)(uri /home/tom/git/TomKeddie/prj-pmod/hardware/pmod-sao/badgelife-parts/badgelife_sao_v169bis.pretty)(options "")(descr ""))
+  (lib (name tom-connectors)(type KiCad)(uri ${KIPRJMOD}/../tom-kicad/footprints/tom-connectors.pretty)(options "")(descr ""))
+)

@@ -13,3 +13,12 @@
 [submodule "hdl/pmod-samd21/spi-fpga"]
 	path = hdl/pmod-samd21/spi-fpga
 	url = https://github.com/lhoyosm/spi-fpga.git
+[submodule "hardware/mithro-kicad-pmod"]
+	path = hardware/mithro-kicad-pmod
+	url = https://github.com/mithro/kicad-pmod.git
+[submodule "hardware/pmod-sao/badgelife-parts"]
+	path = hardware/pmod-sao/badgelife-parts
+	url = https://github.com/devec0/badgelife-parts
+[submodule "hardware/tom-kicad"]
+	path = hardware/tom-kicad
+	url = git@github.com:TomKeddie/tom-kicad.git
