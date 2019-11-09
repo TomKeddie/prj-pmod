@@ -22,3 +22,6 @@
 [submodule "hardware/tom-kicad"]
 	path = hardware/tom-kicad
 	url = git@github.com:TomKeddie/tom-kicad.git
+[submodule "hardware/digikey-kicad-library"]
+	path = hardware/digikey-kicad-library
+	url = https://github.com/Digi-Key/digikey-kicad-library

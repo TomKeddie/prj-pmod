@@ -1,0 +1,214 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# dk_Logic-Translators-Level-Shifters_TXB0108PWR
+#
+DEF dk_Logic-Translators-Level-Shifters_TXB0108PWR U 0 20 Y Y 1 F N
+F0 "U" -250 550 60 H V C CNN
+F1 "dk_Logic-Translators-Level-Shifters_TXB0108PWR" -150 650 60 H V R CNN
+F2 "digikey-footprints:TSSOP-20_W4.4mm" 200 200 60 H I L CNN
+F3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftxb0108" 200 300 60 H I L CNN
+F4 "296-21527-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "TXB0108PWR" 200 500 60 H I L CNN "MPN"
+F6 "Integrated Circuits (ICs)" 200 600 60 H I L CNN "Category"
+F7 "Logic - Translators, Level Shifters" 200 700 60 H I L CNN "Family"
+F8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftxb0108" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/texas-instruments/TXB0108PWR/296-21527-1-ND/1305700" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "IC TRNSLTR BIDIRECTIONAL 20TSSOP" 200 1000 60 H I L CNN "Description"
+F11 "Texas Instruments" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -300 500 200 -600 0 1 0 f
+P 2 0 1 0 -200 -400 -100 -400 N
+P 2 0 1 0 -200 -200 -100 -200 N
+P 2 0 1 0 -200 0 -100 0 N
+P 2 0 1 0 -200 300 -100 300 N
+P 2 0 1 0 -100 -300 -200 -300 N
+P 2 0 1 0 -100 -100 -200 -100 N
+P 2 0 1 0 -100 100 -200 100 N
+P 2 0 1 0 -100 200 -200 200 N
+P 2 0 1 0 50 -400 100 -400 N
+P 2 0 1 0 50 -200 100 -200 N
+P 2 0 1 0 50 0 100 0 N
+P 2 0 1 0 50 300 100 300 N
+P 2 0 1 0 100 -300 50 -300 N
+P 2 0 1 0 100 -100 50 -100 N
+P 2 0 1 0 100 100 50 100 N
+P 2 0 1 0 100 200 50 200 N
+P 4 0 1 0 -50 -400 -50 -450 0 -425 -50 -400 F
+P 4 0 1 0 -50 -375 -100 -375 -100 -425 -50 -425 N
+P 4 0 1 0 -50 -375 0 -400 0 -350 -50 -375 F
+P 4 0 1 0 -50 -300 -50 -350 0 -325 -50 -300 F
+P 4 0 1 0 -50 -275 -100 -275 -100 -325 -50 -325 N
+P 4 0 1 0 -50 -275 0 -300 0 -250 -50 -275 F
+P 4 0 1 0 -50 -200 -50 -250 0 -225 -50 -200 F
+P 4 0 1 0 -50 -175 -100 -175 -100 -225 -50 -225 N
+P 4 0 1 0 -50 -175 0 -200 0 -150 -50 -175 F
+P 4 0 1 0 -50 -100 -50 -150 0 -125 -50 -100 F
+P 4 0 1 0 -50 -75 -100 -75 -100 -125 -50 -125 N
+P 4 0 1 0 -50 -75 0 -100 0 -50 -50 -75 F
+P 4 0 1 0 -50 0 -50 -50 0 -25 -50 0 F
+P 4 0 1 0 -50 25 -100 25 -100 -25 -50 -25 N
+P 4 0 1 0 -50 25 0 0 0 50 -50 25 F
+P 4 0 1 0 -50 100 -50 50 0 75 -50 100 F
+P 4 0 1 0 -50 125 -100 125 -100 75 -50 75 N
+P 4 0 1 0 -50 125 0 100 0 150 -50 125 F
+P 4 0 1 0 -50 200 -50 150 0 175 -50 200 F
+P 4 0 1 0 -50 225 -100 225 -100 175 -50 175 N
+P 4 0 1 0 -50 225 0 200 0 250 -50 225 F
+P 4 0 1 0 -50 300 -50 250 0 275 -50 300 F
+P 4 0 1 0 -50 325 -100 325 -100 275 -50 275 N
+P 4 0 1 0 -50 325 0 300 0 350 -50 325 F
+P 4 0 1 0 0 -375 50 -375 50 -425 0 -425 N
+P 4 0 1 0 0 -275 50 -275 50 -325 0 -325 N
+P 4 0 1 0 0 -175 50 -175 50 -225 0 -225 N
+P 4 0 1 0 0 -75 50 -75 50 -125 0 -125 N
+P 4 0 1 0 0 25 50 25 50 -25 0 -25 N
+P 4 0 1 0 0 125 50 125 50 75 0 75 N
+P 4 0 1 0 0 225 50 225 50 175 0 175 N
+P 4 0 1 0 0 325 50 325 50 275 0 275 N
+X A1 1 -400 300 100 R 50 40 1 1 B
+X OE 10 -400 -500 100 R 50 40 1 1 I
+X GND 11 0 -700 100 U 50 40 1 1 W
+X B8 12 300 -400 100 L 50 40 1 1 B
+X B7 13 300 -300 100 L 50 40 1 1 B
+X B6 14 300 -200 100 L 50 40 1 1 B
+X B5 15 300 -100 100 L 50 40 1 1 B
+X B4 16 300 0 100 L 50 40 1 1 B
+X B3 17 300 100 100 L 50 40 1 1 B
+X B2 18 300 200 100 L 50 40 1 1 B
+X VCCB 19 100 600 100 D 50 40 1 1 W
+X VCCA 2 -100 600 100 D 50 40 1 1 W
+X B1 20 300 300 100 L 50 40 1 1 B
+X A2 3 -400 200 100 R 50 40 1 1 B
+X A3 4 -400 100 100 R 50 40 1 1 B
+X A4 5 -400 0 100 R 50 40 1 1 B
+X A5 6 -400 -100 100 R 50 40 1 1 B
+X A6 7 -400 -200 100 R 50 40 1 1 B
+X A7 8 -400 -300 100 R 50 40 1 1 B
+X A8 9 -400 -400 100 R 50 40 1 1 B
+ENDDRAW
+ENDDEF
+#
+# dk_Rectangular-Connectors-Headers-Male-Pins_S2B-PH-SM4-TB_LF__SN_
+#
+DEF dk_Rectangular-Connectors-Headers-Male-Pins_S2B-PH-SM4-TB_LF__SN_ J 0 40 Y Y 1 F N
+F0 "J" -100 -50 50 H V R CNN
+F1 "dk_Rectangular-Connectors-Headers-Male-Pins_S2B-PH-SM4-TB_LF__SN_" 50 -150 50 H V C CNN
+F2 "digikey-footprints:PinHeader_2x1mm_P2mm_SMD_RA" 200 200 60 H I L CNN
+F3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" 200 300 60 H I L CNN
+F4 "455-1749-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "S2B-PH-SM4-TB(LF)(SN)" 200 500 60 H I L CNN "MPN"
+F6 "Connectors, Interconnects" 200 600 60 H I L CNN "Category"
+F7 "Rectangular Connectors - Headers, Male Pins" 200 700 60 H I L CNN "Family"
+F8 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/jst-sales-america-inc/S2B-PH-SM4-TB(LF)(SN)/455-1749-1-ND/926846" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "CONN HEADER SMD R/A 2POS 2MM" 200 1000 60 H I L CNN "Description"
+F11 "JST Sales America Inc." 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -50 0 150 -100 1 1 0 f
+S -10 -45 10 -65 1 1 0 F
+S 90 -45 110 -65 1 1 0 F
+X ~ 1 0 100 100 D 50 50 1 1 P
+X ~ 2 100 100 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_PWR_FLAG
+#
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+# tom-connectors_PMOD-2x6-FEMALE
+#
+DEF tom-connectors_PMOD-2x6-FEMALE J 0 40 Y Y 1 F N
+F0 "J" 150 -450 50 H V C CNN
+F1 "tom-connectors_PMOD-2x6-FEMALE" -300 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -250 450 200 -500 1 1 0 N
+S 150 -250 150 -250 1 1 0 N
+X D0 1 300 350 100 L 50 50 1 1 B
+X D7 10 300 -350 100 L 50 50 1 1 B
+X GND2 11 -50 -600 100 U 50 50 1 1 W
+X VCC2 12 -50 550 100 D 50 50 1 1 W
+X D1 2 300 250 100 L 50 50 1 1 B
+X D2 3 300 150 100 L 50 50 1 1 B
+X D3 4 300 50 100 L 50 50 1 1 B
+X GND1 5 -150 -600 100 U 50 50 1 1 W
+X VCC1 6 -150 550 100 D 50 50 1 1 W
+X D4 7 300 -50 100 L 50 50 1 1 B
+X D5 8 300 -150 100 L 50 50 1 1 B
+X D6 9 300 -250 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# tom-connectors_PMOD-2x6-MALE
+#
+DEF tom-connectors_PMOD-2x6-MALE J 0 40 Y Y 1 F N
+F0 "J" 100 -550 50 H V C CNN
+F1 "tom-connectors_PMOD-2x6-MALE" -350 -100 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -300 350 150 -600 0 1 0 N
+S 100 -350 100 -350 0 1 0 N
+X D0 1 250 250 100 L 50 50 1 1 B
+X D7 10 250 -450 100 L 50 50 1 1 B
+X GND2 11 -100 -700 100 U 50 50 1 1 W
+X VCC2 12 -100 450 100 D 50 50 1 1 W
+X D1 2 250 150 100 L 50 50 1 1 B
+X D2 3 250 50 100 L 50 50 1 1 B
+X D3 4 250 -50 100 L 50 50 1 1 B
+X GND1 5 -200 -700 100 U 50 50 1 1 W
+X VCC1 6 -200 450 100 D 50 50 1 1 w
+X D4 7 250 -150 100 L 50 50 1 1 B
+X D5 8 250 -250 100 L 50 50 1 1 B
+X D6 9 250 -350 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# tom-passives_C
+#
+DEF tom-passives_C C 0 10 N Y 1 F N
+F0 "C" 0 100 40 H V L CNN
+F1 "tom-passives_C" 6 -85 40 H V L CNN
+F2 "" 38 -150 30 H V C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ SM*
+ C?
+ C1-1
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
