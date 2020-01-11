@@ -15,23 +15,23 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L dk_Interface-Controllers:FT230XS-R U1
+L dk_Interface-Controllers:FT230XS-U U1
 U 1 1 5DF3794D
-P 5350 3350
-F 0 "U1" H 5550 2800 50  0000 C CNN
-F 1 "FT230XS-R" H 5550 2700 50  0000 C CNN
-F 2 "tom-semiconductors:SSOP-16_3.9x4.9mm_P0.635mm" H 5550 3550 60  0001 L CNN
-F 3 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.pdf" H 5550 3650 60  0001 L CNN
-F 4 "768-1135-1-ND" H 5550 3750 60  0001 L CNN "Digi-Key_PN"
-F 5 "FT230XS-R" H 5550 3850 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 5550 3950 60  0001 L CNN "Category"
-F 7 "Interface - Controllers" H 5550 4050 60  0001 L CNN "Family"
-F 8 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.pdf" H 5550 4150 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/ftdi-future-technology-devices-international-ltd/FT230XS-R/768-1135-1-ND/3029155" H 5550 4250 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC USB SERIAL BASIC UART 16SSOP" H 5550 4350 60  0001 L CNN "Description"
-F 11 "FTDI, Future Technology Devices International Ltd" H 5550 4450 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 5550 4550 60  0001 L CNN "Status"
-	1    5350 3350
+P 5300 3350
+F 0 "U1" H 5500 2800 50  0000 C CNN
+F 1 "FT230XS-R" H 5500 2700 50  0000 C CNN
+F 2 "tom-semiconductors:SSOP-16_3.9x4.9mm_P0.635mm" H 5500 3550 60  0001 L CNN
+F 3 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.pdf" H 5500 3650 60  0001 L CNN
+F 4 "768-1135-1-ND" H 5500 3750 60  0001 L CNN "Digi-Key_PN"
+F 5 "FT230XS-R" H 5500 3850 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 5500 3950 60  0001 L CNN "Category"
+F 7 "Interface - Controllers" H 5500 4050 60  0001 L CNN "Family"
+F 8 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.pdf" H 5500 4150 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/ftdi-future-technology-devices-international-ltd/FT230XS-R/768-1135-1-ND/3029155" H 5500 4250 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC USB SERIAL BASIC UART 16SSOP" H 5500 4350 60  0001 L CNN "Description"
+F 11 "FTDI, Future Technology Devices International Ltd" H 5500 4450 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 5500 4550 60  0001 L CNN "Status"
+	1    5300 3350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -68,17 +68,6 @@ F 3 "" H 7450 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR04
-U 1 1 5DF3B485
-P 5150 3950
-F 0 "#PWR04" H 5150 3700 50  0001 C CNN
-F 1 "GND" H 5155 3777 50  0000 C CNN
-F 2 "" H 5150 3950 50  0001 C CNN
-F 3 "" H 5150 3950 50  0001 C CNN
-	1    5150 3950
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR01
 U 1 1 5DF3B955
 P 3250 3550
@@ -90,18 +79,15 @@ F 3 "" H 3250 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5050 3950 5150 3950
-Connection ~ 5150 3950
-Wire Wire Line
 	3550 3150 3750 3150
 Text Label 4650 3150 0    50   ~ 0
 D_P
 Text Label 4650 3250 0    50   ~ 0
 D_N
 Wire Wire Line
-	4500 3150 4850 3150
+	4500 3150 4900 3150
 Wire Wire Line
-	4500 3250 4850 3250
+	4500 3250 4900 3250
 $Comp
 L tom-passives:R R3
 U 1 1 5DF3E1C6
@@ -137,19 +123,18 @@ Wire Wire Line
 	3550 2950 3650 2950
 Text GLabel 3650 2950 2    50   Input ~ 0
 VBUS
-Text GLabel 5450 2750 1    50   Input ~ 0
+Text GLabel 5600 2750 1    50   Input ~ 0
 VBUS
 Wire Wire Line
-	5450 2750 5450 2950
+	5600 2750 5600 2950
 Wire Wire Line
 	7450 2800 7450 2850
 Text GLabel 7450 2800 1    50   Input ~ 0
 VCCIO
-Text GLabel 5350 2750 1    50   Input ~ 0
+Text GLabel 5500 2750 1    50   Input ~ 0
 VCCIO
 Wire Wire Line
-	5350 2750 5350 2900
-NoConn ~ 5850 3350
+	5500 2750 5500 2900
 $Comp
 L tom-passives:C C4
 U 1 1 5DF4745C
@@ -177,99 +162,87 @@ Wire Wire Line
 	4000 3650 4000 3800
 Wire Wire Line
 	4000 3800 3750 3800
-$Comp
-L power:GND #PWR02
-U 1 1 5DF4901F
-P 4000 3800
-F 0 "#PWR02" H 4000 3550 50  0001 C CNN
-F 1 "GND" H 4005 3627 50  0000 C CNN
-F 2 "" H 4000 3800 50  0001 C CNN
-F 3 "" H 4000 3800 50  0001 C CNN
-	1    4000 3800
-	1    0    0    -1  
-$EndComp
-Connection ~ 4000 3800
 Wire Wire Line
-	4850 3350 4550 3350
+	4900 3350 4550 3350
 Wire Wire Line
 	4550 3350 4550 2900
 Wire Wire Line
-	4550 2900 5350 2900
-Connection ~ 5350 2900
+	4550 2900 5500 2900
+Connection ~ 5500 2900
 Wire Wire Line
-	5350 2900 5350 2950
+	5500 2900 5500 2950
 $Comp
 L tom-passives:C C1
 U 1 1 5DF4ACCA
-P 3400 4600
-F 0 "C1" H 3515 4638 40  0000 L CNN
-F 1 "4.7uF" H 3515 4562 40  0000 L CNN
-F 2 "tom-passives:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3438 4450 30  0001 C CNN
-F 3 "" H 3400 4600 60  0000 C CNN
-	1    3400 4600
+P 3350 4900
+F 0 "C1" H 3465 4938 40  0000 L CNN
+F 1 "4.7uF" H 3465 4862 40  0000 L CNN
+F 2 "tom-passives:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3388 4750 30  0001 C CNN
+F 3 "" H 3350 4900 60  0000 C CNN
+	1    3350 4900
 	1    0    0    -1  
 $EndComp
 $Comp
 L tom-passives:C C5
 U 1 1 5DF4B074
-P 4200 4600
-F 0 "C5" H 4315 4638 40  0000 L CNN
-F 1 "4.7uF" H 4315 4562 40  0000 L CNN
-F 2 "tom-passives:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4238 4450 30  0001 C CNN
-F 3 "" H 4200 4600 60  0000 C CNN
-	1    4200 4600
+P 4150 4900
+F 0 "C5" H 4265 4938 40  0000 L CNN
+F 1 "4.7uF" H 4265 4862 40  0000 L CNN
+F 2 "tom-passives:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4188 4750 30  0001 C CNN
+F 3 "" H 4150 4900 60  0000 C CNN
+	1    4150 4900
 	1    0    0    -1  
 $EndComp
 $Comp
 L tom-passives:C C3
 U 1 1 5DF4B562
-P 3800 4600
-F 0 "C3" H 3915 4638 40  0000 L CNN
-F 1 "0.1uF" H 3915 4562 40  0000 L CNN
-F 2 "tom-passives:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3838 4450 30  0001 C CNN
-F 3 "" H 3800 4600 60  0000 C CNN
-	1    3800 4600
+P 3750 4900
+F 0 "C3" H 3865 4938 40  0000 L CNN
+F 1 "0.1uF" H 3865 4862 40  0000 L CNN
+F 2 "tom-passives:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3788 4750 30  0001 C CNN
+F 3 "" H 3750 4900 60  0000 C CNN
+	1    3750 4900
 	1    0    0    -1  
 $EndComp
 $Comp
 L tom-passives:C C6
 U 1 1 5DF4B914
-P 4600 4600
-F 0 "C6" H 4715 4638 40  0000 L CNN
-F 1 "0.1uF" H 4715 4562 40  0000 L CNN
-F 2 "tom-passives:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4638 4450 30  0001 C CNN
-F 3 "" H 4600 4600 60  0000 C CNN
-	1    4600 4600
+P 4550 4900
+F 0 "C6" H 4665 4938 40  0000 L CNN
+F 1 "0.1uF" H 4665 4862 40  0000 L CNN
+F 2 "tom-passives:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4588 4750 30  0001 C CNN
+F 3 "" H 4550 4900 60  0000 C CNN
+	1    4550 4900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4200 4800 4600 4800
+	4150 5100 4550 5100
 Wire Wire Line
-	4600 4400 4200 4400
+	4550 4700 4150 4700
 Wire Wire Line
-	3400 4400 3800 4400
+	3350 4700 3750 4700
 Wire Wire Line
-	3400 4800 3800 4800
+	3350 5100 3750 5100
 Wire Wire Line
-	4200 4800 3800 4800
-Connection ~ 4200 4800
-Connection ~ 3800 4800
+	4150 5100 3750 5100
+Connection ~ 4150 5100
+Connection ~ 3750 5100
 $Comp
 L power:GND #PWR03
 U 1 1 5DF526E1
-P 4600 4800
-F 0 "#PWR03" H 4600 4550 50  0001 C CNN
-F 1 "GND" H 4605 4627 50  0000 C CNN
-F 2 "" H 4600 4800 50  0001 C CNN
-F 3 "" H 4600 4800 50  0001 C CNN
-	1    4600 4800
+P 4550 5100
+F 0 "#PWR03" H 4550 4850 50  0001 C CNN
+F 1 "GND" H 4555 4927 50  0000 C CNN
+F 2 "" H 4550 5100 50  0001 C CNN
+F 3 "" H 4550 5100 50  0001 C CNN
+	1    4550 5100
 	1    0    0    -1  
 $EndComp
-Connection ~ 4600 4800
+Connection ~ 4550 5100
 Wire Wire Line
-	4600 4400 4700 4400
-Connection ~ 4600 4400
-Text GLabel 3000 3950 0    50   Input ~ 0
+	4550 4700 4650 4700
+Connection ~ 4550 4700
+Text GLabel 2950 4250 0    50   Input ~ 0
 VBUS
 $Comp
 L tom-opto:LED D2
@@ -323,78 +296,54 @@ Wire Wire Line
 	6200 2050 6200 2150
 Connection ~ 6200 2150
 Wire Wire Line
-	6200 2950 6200 3550
+	6500 4400 6500 2950
 Wire Wire Line
-	6200 3550 5850 3550
+	4400 3550 4400 4500
 Wire Wire Line
-	5850 3650 6500 3650
-Wire Wire Line
-	6500 3650 6500 2950
-Wire Wire Line
-	4850 3450 4500 3450
-Wire Wire Line
-	4500 3450 4500 4250
-Wire Wire Line
-	4500 4250 6950 4250
-Wire Wire Line
-	6950 4250 6950 3050
-Wire Wire Line
-	6950 3050 7000 3050
-Wire Wire Line
-	4850 3550 4850 4200
-Wire Wire Line
-	4850 4200 6850 4200
-Wire Wire Line
-	6850 4200 6850 3250
+	6750 3050 7000 3050
 Wire Wire Line
 	6850 3250 7000 3250
 Wire Wire Line
-	7000 3350 5950 3350
+	7000 3350 7000 3550
 Wire Wire Line
-	5950 3350 5950 3250
-Wire Wire Line
-	5950 3250 5850 3250
-Wire Wire Line
-	5850 3150 7000 3150
-NoConn ~ 5850 3450
-NoConn ~ 5850 3750
+	6650 3150 7000 3150
 $Comp
 L tom-opto:LED D1
 U 1 1 5DF71177
-P 3050 4100
-F 0 "D1" V 3089 3982 50  0000 R CNN
-F 1 "VBUS" V 2998 3982 50  0000 R CNN
-F 2 "tom-passives:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3050 4100 50  0001 C CNN
-F 3 "~" H 3050 4100 50  0001 C CNN
-	1    3050 4100
+P 3000 4400
+F 0 "D1" V 3039 4282 50  0000 R CNN
+F 1 "VBUS" V 2948 4282 50  0000 R CNN
+F 2 "tom-passives:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3000 4400 50  0001 C CNN
+F 3 "~" H 3000 4400 50  0001 C CNN
+	1    3000 4400
 	0    -1   -1   0   
 $EndComp
-Text GLabel 4700 4400 2    50   Input ~ 0
+Text GLabel 4650 4700 2    50   Input ~ 0
 VCCIO
 $Comp
 L tom-passives:R R1
 U 1 1 5DF780E4
-P 3050 4500
-F 0 "R1" V 2950 4500 40  0000 C CNN
-F 1 "1k" V 3050 4500 40  0000 C CNN
-F 2 "tom-passives:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2980 4500 30  0001 C CNN
-F 3 "" H 3050 4500 30  0000 C CNN
-	1    3050 4500
+P 3000 4800
+F 0 "R1" V 2900 4800 40  0000 C CNN
+F 1 "1k" V 3000 4800 40  0000 C CNN
+F 2 "tom-passives:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2930 4800 30  0001 C CNN
+F 3 "" H 3000 4800 30  0000 C CNN
+	1    3000 4800
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3400 4800 3050 4800
+	3350 5100 3000 5100
 Wire Wire Line
-	3050 4800 3050 4750
-Connection ~ 3400 4800
+	3000 5100 3000 5050
+Connection ~ 3350 5100
 Wire Wire Line
-	3050 3950 3000 3950
+	3000 4250 2950 4250
 Wire Wire Line
-	3050 3950 3400 3950
+	3000 4250 3350 4250
 Wire Wire Line
-	3400 3950 3400 4400
-Connection ~ 3050 3950
-Connection ~ 3400 4400
+	3350 4250 3350 4700
+Connection ~ 3000 4250
+Connection ~ 3350 4700
 Wire Wire Line
 	3550 3250 4000 3250
 Wire Wire Line
@@ -402,23 +351,23 @@ Wire Wire Line
 Connection ~ 3750 3150
 Wire Wire Line
 	3750 3150 4000 3150
-Text Label 5950 3550 0    50   ~ 0
+Text Label 5000 4300 0    50   ~ 0
 CBUS1
-Text Label 5950 3650 0    50   ~ 0
+Text Label 5000 4400 0    50   ~ 0
 CBUS2
-Text Label 5950 3150 0    50   ~ 0
+Text Label 5950 3450 0    50   ~ 0
 TXD
-Text Label 5950 3350 0    50   ~ 0
+Text Label 5950 3550 0    50   ~ 0
 RTS
-Text Label 4550 3450 0    50   ~ 0
+Text Label 4400 3900 1    50   ~ 0
 CTS
-Text Label 4850 3750 1    50   ~ 0
+Text Label 4300 3900 1    50   ~ 0
 RXD
 Text Label 6200 2450 2    50   ~ 0
 TXLED
 Text Label 6500 2650 0    50   ~ 0
 RXLED
-Text Label 3050 4250 2    50   ~ 0
+Text Label 3000 4550 2    50   ~ 0
 VBUSLED
 $Comp
 L power:PWR_FLAG #FLG0101
@@ -434,4 +383,67 @@ $EndComp
 Connection ~ 4550 2900
 Wire Wire Line
 	3150 3550 3250 3550
+Wire Wire Line
+	4300 3450 4300 4600
+Wire Wire Line
+	4400 3550 4900 3550
+Wire Wire Line
+	4300 3450 4900 3450
+Wire Wire Line
+	4300 4600 6850 4600
+Wire Wire Line
+	6850 3250 6850 4600
+Wire Wire Line
+	4400 4500 6750 4500
+Wire Wire Line
+	6750 3050 6750 4500
+Wire Wire Line
+	4800 4400 4800 3850
+Wire Wire Line
+	4800 3850 4900 3850
+Wire Wire Line
+	4800 4400 6500 4400
+Wire Wire Line
+	6200 4300 4700 4300
+Wire Wire Line
+	4700 4300 4700 3750
+Wire Wire Line
+	4700 3750 4900 3750
+Wire Wire Line
+	6200 2950 6200 4300
+Wire Wire Line
+	5900 3550 7000 3550
+Wire Wire Line
+	5900 3450 6650 3450
+Wire Wire Line
+	6650 3450 6650 3150
+NoConn ~ 4900 3650
+NoConn ~ 4900 3950
+NoConn ~ 5900 3350
+$Comp
+L power:GND #PWR0101
+U 1 1 5E1FEA00
+P 5600 4150
+F 0 "#PWR0101" H 5600 3900 50  0001 C CNN
+F 1 "GND" H 5750 4100 50  0000 C CNN
+F 2 "" H 5600 4150 50  0001 C CNN
+F 3 "" H 5600 4150 50  0001 C CNN
+	1    5600 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 4150 5600 4150
+Connection ~ 5600 4150
+$Comp
+L power:GND #PWR?
+U 1 1 5E203B90
+P 3750 3800
+F 0 "#PWR?" H 3750 3550 50  0001 C CNN
+F 1 "GND" H 3900 3750 50  0000 C CNN
+F 2 "" H 3750 3800 50  0001 C CNN
+F 3 "" H 3750 3800 50  0001 C CNN
+	1    3750 3800
+	1    0    0    -1  
+$EndComp
+Connection ~ 3750 3800
 $EndSCHEMATC
