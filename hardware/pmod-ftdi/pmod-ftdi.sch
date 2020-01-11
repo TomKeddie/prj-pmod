@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:pmod-ftdi-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -19,7 +20,7 @@ U 1 1 5DF3794D
 P 5350 3350
 F 0 "U1" H 5550 2800 50  0000 C CNN
 F 1 "FT230XS-R" H 5550 2700 50  0000 C CNN
-F 2 "digikey-footprints:SOIC-16_W3.90mm" H 5550 3550 60  0001 L CNN
+F 2 "tom-semiconductors:SSOP-16_3.9x4.9mm_P0.635mm" H 5550 3550 60  0001 L CNN
 F 3 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.pdf" H 5550 3650 60  0001 L CNN
 F 4 "768-1135-1-ND" H 5550 3750 60  0001 L CNN "Digi-Key_PN"
 F 5 "FT230XS-R" H 5550 3850 60  0001 L CNN "MPN"
