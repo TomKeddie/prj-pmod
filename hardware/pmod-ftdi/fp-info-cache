@@ -1,0 +1,57 @@
+12573409030903
+tom-semiconductors
+BGA-24_5x5_6.0x8.0mm
+
+
+0
+24
+24
+tom-semiconductors
+QFN-16-1EP_3x3mm_Pitch0.5mm_HS
+16-Lead Plastic Quad Flat, No Lead Package (NG) - 3x3x0.9 mm Body [QFN]; (see Microchip Packaging Specification 00000049BS.pdf)
+QFN 0.5
+0
+20
+17
+tom-semiconductors
+QFP50P900X900X120-48N
+
+
+0
+48
+48
+tom-semiconductors
+SOIC-8_5.23x5.23mm_P1.27mm
+SOIC, 8 Pin (http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf#page=68), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+8
+8
+tom-semiconductors
+SOT-23-5
+5-pin SOT23 package
+SOT-23-5
+0
+5
+5
+tom-semiconductors
+SOT-23-5_HandSoldering
+5-pin SOT23 package
+SOT-23-5 hand-soldering
+0
+5
+5
+tom-semiconductors
+SSOP-16_3.9x4.9mm_P0.635mm
+SSOP16: plastic shrink small outline package; 16 leads; body width 3.9 mm; lead pitch 0.635; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot519-1_po.pdf)
+SSOP 0.635
+0
+16
+16
+tom-semiconductors
+TO-92-teardrop
+TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)
+to-92 sc-43 sc-43a sot54 PA33 transistor
+0
+3
+3
