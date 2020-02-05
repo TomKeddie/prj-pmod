@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:pmod-usb-analyser-openvizla-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -337,17 +336,6 @@ Wire Wire Line
 Connection ~ 2700 6500
 Wire Wire Line
 	2700 6500 4500 6500
-$Comp
-L power:+3V3 #PWR05
-U 1 1 5CD92942
-P 2700 6300
-F 0 "#PWR05" H 2700 6150 50  0001 C CNN
-F 1 "+3V3" H 2715 6473 50  0000 C CNN
-F 2 "" H 2700 6300 50  0001 C CNN
-F 3 "" H 2700 6300 50  0001 C CNN
-	1    2700 6300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2700 6500 2700 6300
 $Comp
@@ -807,26 +795,6 @@ Wire Wire Line
 	2450 4150 1800 4150
 Wire Wire Line
 	2550 4250 1800 4250
-$Comp
-L power:+3V3 #PWR0103
-U 1 1 5CE4D08B
-P 1350 1450
-F 0 "#PWR0103" H 1350 1300 50  0001 C CNN
-F 1 "+3V3" H 1365 1623 50  0000 C CNN
-F 2 "" H 1350 1450 50  0001 C CNN
-F 3 "" H 1350 1450 50  0001 C CNN
-	1    1350 1450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1350 1550 1350 1500
-Wire Wire Line
-	1450 1550 1450 1500
-Wire Wire Line
-	1450 1500 1350 1500
-Connection ~ 1350 1500
-Wire Wire Line
-	1350 1500 1350 1450
 NoConn ~ 1350 3350
 NoConn ~ 1450 3350
 $Comp
@@ -880,4 +848,113 @@ Wire Wire Line
 	2150 5350 2300 5350
 Text Label 1650 6150 0    50   ~ 0
 VBUS1
+Text GLabel 2700 6300 1    50   Input ~ 0
+VBUS2
+NoConn ~ 1450 1550
+NoConn ~ 1350 1550
+$Comp
+L tom-semiconductors:AP2112K-3.3 U2
+U 1 1 5E3E7DF9
+P 7350 4200
+F 0 "U2" H 7350 4542 50  0000 C CNN
+F 1 "AP2112K-3.3" H 7350 4451 50  0000 C CNN
+F 2 "tom-semiconductors:SOT-23-5_HandSoldering" H 7350 4525 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP2112.pdf" H 7350 4300 50  0001 C CNN
+	1    7350 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5E3EAD9E
+P 7350 4500
+F 0 "#PWR05" H 7350 4250 50  0001 C CNN
+F 1 "GND" H 7355 4327 50  0000 C CNN
+F 2 "" H 7350 4500 50  0001 C CNN
+F 3 "" H 7350 4500 50  0001 C CNN
+	1    7350 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR016
+U 1 1 5E3EC053
+P 7750 4000
+F 0 "#PWR016" H 7750 3850 50  0001 C CNN
+F 1 "+3V3" H 7765 4173 50  0000 C CNN
+F 2 "" H 7750 4000 50  0001 C CNN
+F 3 "" H 7750 4000 50  0001 C CNN
+	1    7750 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 6800 4100 0    50   Input ~ 0
+VBUS1
+Wire Wire Line
+	7750 4000 7750 4100
+Wire Wire Line
+	7750 4100 7650 4100
+$Comp
+L Device:C C14
+U 1 1 5E3FDF50
+P 6850 4450
+F 0 "C14" H 6965 4541 50  0000 L CNN
+F 1 "1uF" H 6965 4450 50  0000 L CNN
+F 2 "tom-passives:C_0402_1005Metric" H 6888 4300 50  0001 C CNN
+F 3 "~" H 6850 4450 50  0001 C CNN
+F 4 "10V" H 6965 4359 50  0000 L CNN "Voltage"
+	1    6850 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5E3FF07D
+P 6850 4600
+F 0 "#PWR03" H 6850 4350 50  0001 C CNN
+F 1 "GND" H 6855 4427 50  0000 C CNN
+F 2 "" H 6850 4600 50  0001 C CNN
+F 3 "" H 6850 4600 50  0001 C CNN
+	1    6850 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 4300 6850 4200
+Connection ~ 6850 4100
+Wire Wire Line
+	6850 4100 6800 4100
+Wire Wire Line
+	6850 4100 7050 4100
+Wire Wire Line
+	6850 4200 7050 4200
+Connection ~ 6850 4200
+Wire Wire Line
+	6850 4200 6850 4100
+$Comp
+L Device:C C15
+U 1 1 5E40C54F
+P 7750 4250
+F 0 "C15" H 7865 4341 50  0000 L CNN
+F 1 "1uF" H 7865 4250 50  0000 L CNN
+F 2 "tom-passives:C_0402_1005Metric" H 7788 4100 50  0001 C CNN
+F 3 "~" H 7750 4250 50  0001 C CNN
+F 4 "10V" H 7865 4159 50  0000 L CNN "Voltage"
+	1    7750 4250
+	1    0    0    -1  
+$EndComp
+Connection ~ 7750 4100
+$Comp
+L power:GND #PWR017
+U 1 1 5E40C905
+P 7750 4400
+F 0 "#PWR017" H 7750 4150 50  0001 C CNN
+F 1 "GND" H 7755 4227 50  0000 C CNN
+F 2 "" H 7750 4400 50  0001 C CNN
+F 3 "" H 7750 4400 50  0001 C CNN
+	1    7750 4400
+	1    0    0    -1  
+$EndComp
+Text GLabel 1950 6000 1    50   Input ~ 0
+VBUS1
+Wire Wire Line
+	1950 6000 1950 6200
+Wire Wire Line
+	1950 6200 1650 6200
+Connection ~ 1650 6200
 $EndSCHEMATC
