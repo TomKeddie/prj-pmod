@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name tom-connectors)(type Legacy)(uri /home/tom/git/TomKeddie/prj-pmod/hardware/tom-kicad/symbols/tom-connectors.lib)(options "")(descr ""))
+  (lib (name tom-mechanical)(type Legacy)(uri /home/tom/git/TomKeddie/prj-pmod/hardware/tom-kicad/symbols/tom-mechanical.lib)(options "")(descr ""))
+  (lib (name tom-modules)(type Legacy)(uri /home/tom/git/TomKeddie/prj-pmod/hardware/tom-kicad/symbols/tom-modules.lib)(options "")(descr ""))
+  (lib (name tom-opto)(type Legacy)(uri /home/tom/git/TomKeddie/prj-pmod/hardware/tom-kicad/symbols/tom-opto.lib)(options "")(descr ""))
+  (lib (name tom-passives)(type Legacy)(uri /home/tom/git/TomKeddie/prj-pmod/hardware/tom-kicad/symbols/tom-passives.lib)(options "")(descr ""))
+  (lib (name tom-semiconductors)(type Legacy)(uri /home/tom/git/TomKeddie/prj-pmod/hardware/tom-kicad/symbols/tom-semiconductors.lib)(options "")(descr ""))
+)
