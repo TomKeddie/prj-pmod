@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name tom-opto)(type Legacy)(uri /home/tom/git/TomKeddie/prj-pcb-experiments/tom-kicad/symbols/tom-opto.lib)(options "")(descr ""))
+)
