@@ -3,4 +3,5 @@
   (lib (name tom-passives)(type Legacy)(uri /home/tom/git/TomKeddie/prj-pmod/hardware/tom-kicad/symbols/tom-passives.lib)(options "")(descr ""))
   (lib (name tom-mechanical)(type Legacy)(uri /home/tom/git/TomKeddie/prj-pmod/hardware/tom-kicad/symbols/tom-mechanical.lib)(options "")(descr ""))
   (lib (name tom-connectors)(type Legacy)(uri /home/tom/git/TomKeddie/prj-pmod/hardware/tom-kicad/symbols/tom-connectors.lib)(options "")(descr ""))
+  (lib (name pmod-fan5702-rescue)(type Legacy)(uri ${KIPRJMOD}/pmod-fan5702-rescue.lib)(options "")(descr ""))
 )

@@ -4,4 +4,5 @@
   (lib (name tom-passives)(type Legacy)(uri ${KIPRJMOD}/../../tom-kicad/symbols/tom-passives.lib)(options "")(descr ""))
   (lib (name tom-mechanical)(type Legacy)(uri ${KIPRJMOD}/../../tom-kicad/symbols/tom-mechanical.lib)(options "")(descr ""))
   (lib (name tom-connectors)(type Legacy)(uri ${KIPRJMOD}/../../tom-kicad/symbols/tom-connectors.lib)(options "")(descr ""))
+  (lib (name pmod-samd21-usbu-rescue)(type Legacy)(uri ${KIPRJMOD}/pmod-samd21-usbu-rescue.lib)(options "")(descr ""))
 )

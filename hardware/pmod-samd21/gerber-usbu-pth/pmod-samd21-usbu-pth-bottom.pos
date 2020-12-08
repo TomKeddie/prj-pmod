@@ -1,0 +1,14 @@
+### Module positions - created on Wed 24 Apr 2019 12:42:37 PM PDT ###
+### Printed by Pcbnew version pcbnew 5.0.1
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                    Package                               PosX       PosY       Rot  Side
+C1        0.1uF                  C_0402                             -2.0193    12.0760  315.0000  bottom
+C2        0.1uF                  C_0402                             -3.2893    12.3300  315.0000  bottom
+C5        15pF                   C_0402                             -0.7493    17.4100   90.0000  bottom
+C6        15pF                   C_0402                             -0.7493    24.4800   90.0000  bottom
+R1        10K                    R_0402                             -2.3876     9.4471   90.0000  bottom
+S1        SWITCH-MOMENTARY-2SMD  SW_SPST_SMD_2PIN_3.5x6.0           -9.6393     9.0000    0.0000  bottom
+U1        ATSAMD21G-A            QFP50P900X900X120-48N              -7.0993    16.7750  315.0000  bottom
+Y1        32.768kHz              Crystal_SMD_3215-2pin_3.2x1.5mm    -2.0193    21.2200   45.0000  bottom
+## End

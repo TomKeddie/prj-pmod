@@ -1,0 +1,14 @@
+### Module positions - created on Wed 24 Apr 2019 12:42:37 PM PDT ###
+### Printed by Pcbnew version pcbnew 5.0.1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val              Package                           PosX       PosY       Rot  Side
+C3        0.1uF            C_0402                          4.3053    20.9660    0.0000  top
+C4        0.1uF            C_0402                          8.1246    21.6894  180.0000  top
+C7        1uF              C_0402                          7.6493    12.3300  180.0000  top
+D1        LED              LED_0402                        0.7620     2.7161   90.0000  top
+J1        PMOD-2x6-MALE    PMOD_2X6_PTH_RA_PLUG            8.8893    26.3000  180.0000  top
+J2        PMOD-2x6-FEMALE  PMOD_2X6_PTH_RA_SOCKET          8.8893     4.2500    0.0000  top
+Q1        2N7002PW         SOT-323_SC-70_Handsoldering     5.0292     9.0153    0.0000  top
+R2        330              R_0402                          0.7493     5.2180   90.0000  top
+## End
