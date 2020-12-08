@@ -312,4 +312,6 @@ Text Label 1400 1750 1    50   ~ 0
 CATHODE_G16
 Wire Bus Line
 	1500 1400 5050 1400
+Text Label 4700 1400 3    50   ~ 0
+CATHODE_G[1..16]
 $EndSCHEMATC
