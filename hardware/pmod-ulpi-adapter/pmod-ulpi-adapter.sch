@@ -149,24 +149,6 @@ F 3 "" H 1400 2900 50  0001 C CNN
 	1    1400 2900
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+3.3V #PWR02
-U 1 1 60492CAB
-P 1400 1050
-F 0 "#PWR02" H 1400 900 50  0001 C CNN
-F 1 "+3.3V" H 1415 1223 50  0000 C CNN
-F 2 "" H 1400 1050 50  0001 C CNN
-F 3 "" H 1400 1050 50  0001 C CNN
-	1    1400 1050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1400 1050 1400 1150
-Wire Wire Line
-	1400 1050 1500 1050
-Wire Wire Line
-	1500 1050 1500 1150
-Connection ~ 1400 1050
 Wire Wire Line
 	1400 2300 1400 2400
 Wire Wire Line
@@ -190,14 +172,6 @@ Wire Wire Line
 Connection ~ 1400 4250
 Wire Wire Line
 	3900 3900 4500 3900
-Wire Wire Line
-	4500 3900 4500 1650
-Wire Wire Line
-	4500 1650 1850 1650
-Wire Wire Line
-	4400 3800 4400 1750
-Wire Wire Line
-	4400 1750 1850 1750
 Wire Wire Line
 	3900 3800 4400 3800
 Wire Wire Line
@@ -231,112 +205,95 @@ F 3 "" H 4000 3100 50  0001 C CNN
 	1    4000 3100
 	1    0    0    -1  
 $EndComp
-Text Label 2450 1650 0    50   ~ 0
+Text Label 2450 1350 0    50   ~ 0
 STP
-Text Label 2450 1750 0    50   ~ 0
+Text Label 2450 1450 0    50   ~ 0
 NXT
 Text Label 2450 1850 0    50   ~ 0
 DIR
-Text Label 2450 1550 0    50   ~ 0
+Text Label 2450 1750 0    50   ~ 0
 CLKOUT
-Text Label 2450 1950 0    50   ~ 0
+Text Label 2450 1650 0    50   ~ 0
 RESET
 Text Notes 2050 900  0    50   ~ 0
 ARTY CLK CAPABLE - JB[1-4], JD[1-4,7-9]
 Text Notes 2050 1000 0    50   ~ 0
 ULX3S - J1A[2-4, 8-10] J2A[7]
-Wire Wire Line
-	4200 1550 1950 1550
-Wire Wire Line
-	4200 1550 4200 3600
 Text Notes 2050 1100 0    50   ~ 0
 ICEBREAKER - P1A10
 Wire Wire Line
-	4100 1950 1850 1950
-Wire Wire Line
-	4100 1950 4100 3500
-Wire Wire Line
-	1950 1550 1950 2050
-Wire Wire Line
 	1950 2050 1850 2050
-Connection ~ 1950 1550
-Wire Wire Line
-	1950 1550 1850 1550
 $Comp
 L tom-passives:R R1
 U 1 1 604A7184
-P 4250 1350
-F 0 "R1" V 4065 1350 40  0000 C CNN
-F 1 "1k" V 4141 1350 40  0000 C CNN
-F 2 "tom-passives:R_0805_2012Metric" V 4180 1350 30  0001 C CNN
-F 3 "" H 4250 1350 30  0001 C CNN
-F 4 "DNP" V 4141 1350 40  0001 C CNN "LCSC"
-	1    4250 1350
+P 5300 1350
+F 0 "R1" V 5115 1350 40  0000 C CNN
+F 1 "1k" V 5191 1350 40  0000 C CNN
+F 2 "tom-passives:R_0805_2012Metric" V 5230 1350 30  0001 C CNN
+F 3 "" H 5300 1350 30  0001 C CNN
+F 4 "DNP" V 5191 1350 40  0001 C CNN "LCSC"
+	1    5300 1350
 	0    1    1    0   
 $EndComp
 $Comp
 L tom-passives:R R2
 U 1 1 604A888C
-P 4700 1450
-F 0 "R2" V 4500 1450 40  0000 C CNN
-F 1 "1k" V 4600 1450 40  0000 C CNN
-F 2 "tom-passives:R_0805_2012Metric" V 4630 1450 30  0001 C CNN
-F 3 "" H 4700 1450 30  0001 C CNN
-F 4 "DNP" V 4809 1450 40  0001 C CNN "LCSC"
-	1    4700 1450
+P 5750 1450
+F 0 "R2" V 5550 1450 40  0000 C CNN
+F 1 "1k" V 5650 1450 40  0000 C CNN
+F 2 "tom-passives:R_0805_2012Metric" V 5680 1450 30  0001 C CNN
+F 3 "" H 5750 1450 30  0001 C CNN
+F 4 "DNP" V 5859 1450 40  0001 C CNN "LCSC"
+	1    5750 1450
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	1850 1350 4000 1350
-Wire Wire Line
-	4450 1450 1850 1450
 $Comp
 L tom-opto:LED D1
 U 1 1 604ACC5D
-P 4500 1000
-F 0 "D1" V 4539 883 50  0000 R CNN
-F 1 "LED" V 4448 883 50  0000 R CNN
-F 2 "tom-opto:LED_0805_2012Metric" H 4500 1000 50  0001 C CNN
-F 3 "~" H 4500 1000 50  0001 C CNN
-	1    4500 1000
+P 5550 1000
+F 0 "D1" V 5589 883 50  0000 R CNN
+F 1 "LED" V 5498 883 50  0000 R CNN
+F 2 "tom-opto:LED_0805_2012Metric" H 5550 1000 50  0001 C CNN
+F 3 "~" H 5550 1000 50  0001 C CNN
+	1    5550 1000
 	0    -1   -1   0   
 $EndComp
 $Comp
 L tom-opto:LED D2
 U 1 1 604AD48B
-P 4950 1000
-F 0 "D2" V 4989 883 50  0000 R CNN
-F 1 "LED" V 4898 883 50  0000 R CNN
-F 2 "tom-opto:LED_0805_2012Metric" H 4950 1000 50  0001 C CNN
-F 3 "~" H 4950 1000 50  0001 C CNN
-	1    4950 1000
+P 6000 1000
+F 0 "D2" V 6039 883 50  0000 R CNN
+F 1 "LED" V 5948 883 50  0000 R CNN
+F 2 "tom-opto:LED_0805_2012Metric" H 6000 1000 50  0001 C CNN
+F 3 "~" H 6000 1000 50  0001 C CNN
+	1    6000 1000
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+3.3V #PWR01
 U 1 1 604ADD28
-P 4500 750
-F 0 "#PWR01" H 4500 600 50  0001 C CNN
-F 1 "+3.3V" H 4515 923 50  0000 C CNN
-F 2 "" H 4500 750 50  0001 C CNN
-F 3 "" H 4500 750 50  0001 C CNN
-	1    4500 750 
+P 5550 750
+F 0 "#PWR01" H 5550 600 50  0001 C CNN
+F 1 "+3.3V" H 5565 923 50  0000 C CNN
+F 2 "" H 5550 750 50  0001 C CNN
+F 3 "" H 5550 750 50  0001 C CNN
+	1    5550 750 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4500 750  4500 850 
+	5550 750  5550 850 
 Wire Wire Line
-	4500 750  4950 750 
+	5550 750  6000 750 
 Wire Wire Line
-	4950 750  4950 850 
-Connection ~ 4500 750 
+	6000 750  6000 850 
+Connection ~ 5550 750 
 Wire Wire Line
-	4500 1150 4500 1350
+	5550 1150 5550 1350
 Wire Wire Line
-	4950 1150 4950 1450
-Text Label 2450 1350 0    50   ~ 0
+	6000 1150 6000 1450
+Text Label 2450 1950 0    50   ~ 0
 BLUE
-Text Label 2450 1450 0    50   ~ 0
+Text Label 2450 1550 0    50   ~ 0
 YELLOW
 $Comp
 L tom-connectors:Conn_01x02 J4
@@ -420,21 +377,21 @@ F 3 "" H 4000 4650 50  0001 C CNN
 	1    4000 4650
 	1    0    0    -1  
 $EndComp
-Text Label 1950 3500 0    50   ~ 0
-DATA0
 Text Label 1950 3900 0    50   ~ 0
+DATA0
+Text Label 1950 3500 0    50   ~ 0
 DATA1
-Text Label 1950 3400 0    50   ~ 0
-DATA2
 Text Label 1950 3800 0    50   ~ 0
+DATA2
+Text Label 1950 3400 0    50   ~ 0
 DATA3
-Text Label 1950 3300 0    50   ~ 0
-DATA4
 Text Label 1950 3700 0    50   ~ 0
+DATA4
+Text Label 1950 3300 0    50   ~ 0
 DATA5
-Text Label 1950 3200 0    50   ~ 0
-DATA6
 Text Label 1950 3600 0    50   ~ 0
+DATA6
+Text Label 1950 3200 0    50   ~ 0
 DATA7
 Wire Wire Line
 	1850 3200 1950 3200
@@ -468,4 +425,39 @@ Wire Wire Line
 	3300 3800 3400 3800
 Wire Wire Line
 	3400 3900 3300 3900
+Wire Wire Line
+	4100 1650 1850 1650
+Wire Wire Line
+	4100 1650 4100 3500
+Wire Wire Line
+	1850 1750 1950 1750
+Wire Wire Line
+	4200 1750 4200 3600
+Wire Wire Line
+	1950 1750 1950 2050
+Connection ~ 1950 1750
+Wire Wire Line
+	1950 1750 4200 1750
+Wire Wire Line
+	4500 1350 1850 1350
+Wire Wire Line
+	4500 1350 4500 3900
+Wire Wire Line
+	5050 1350 4950 1350
+Wire Wire Line
+	4950 1350 4950 1950
+Wire Wire Line
+	4950 1950 1850 1950
+Wire Wire Line
+	4400 1450 1850 1450
+Wire Wire Line
+	4400 1450 4400 3800
+Wire Wire Line
+	1850 1550 5400 1550
+Wire Wire Line
+	5400 1550 5400 1450
+Wire Wire Line
+	5400 1450 5500 1450
+NoConn ~ 1500 1150
+NoConn ~ 1400 1150
 $EndSCHEMATC
